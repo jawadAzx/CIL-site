@@ -1,0 +1,100 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 82.1vh;
+}
+
+.dashboard-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.dashboard-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #424242;
+    margin-left: 120px;
+    text-align: left;
+
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid #ff0000;
+    color: #ff0000;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.transparent-button:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    /* Optional: Change text color on hover */
+}
+
+.dashboard-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    position: relative;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 0;
+
+}
+
+.dashboard-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+
+    }
+
+    .dashboard-left {
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .dashboard-heading {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .transparent-button {
+        margin-left: 0px;
+        width: 50%;
+    }
+
+    .dashboard-right {
+        width: 100%;
+        height: 80%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    }
+}

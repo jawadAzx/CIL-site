@@ -1,0 +1,33 @@
+.conf-buy-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.order-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .conf-buy-button {
+        width: 100%;
+    }
+
+    .order-summary {
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+}

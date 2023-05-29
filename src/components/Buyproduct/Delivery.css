@@ -1,0 +1,211 @@
+/* Add these styles to your Delivery.css file */
+
+.buy-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buy-container form div {
+    margin-bottom: 10px;
+}
+
+.buy-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.buy-container input,
+.buy-container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.del-buy-button {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.loader {
+    margin-left: 10px;
+}
+
+.del-buy-button:hover {
+    background-color: #45a049;
+}
+
+.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.disabled:hover {
+    background-color: #ccc;
+}
+
+/* Optional: Add additional styles to customize the form appearance */
+
+.delivery-mid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 83%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.order-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.order-details h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: #424242;
+    margin-bottom: 20px;
+
+}
+
+.order-details-total {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 5px;
+
+}
+
+.order-details-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #424242;
+    margin-bottom: 5px;
+}
+
+.delivery-mid-container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: row;
+    /* Updated margin value */
+}
+
+.form-column {
+    flex-basis: calc(50% - 10px);
+}
+
+.form-column label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.form-column input,
+.form-column textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
+
+.order-details-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .delivery-mid-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 86%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+
+    }
+
+    .order-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 86%;
+    }
+
+    .order-details h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 23px;
+        font-weight: 400;
+        color: #424242;
+        margin-bottom: 20px;
+
+    }
+
+    .order-details-total {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 5px;
+
+    }
+
+    .order-details-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        color: #424242;
+        margin-bottom: 5px;
+    }
+}

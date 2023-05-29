@@ -1,0 +1,373 @@
+.wwe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wwe-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.wwe-top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.wwe-top-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #424242;
+    margin-left: 120px;
+    text-align: left;
+
+}
+
+.wwe-top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    position: relative;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 0;
+
+}
+
+.wwe-top-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wwe-top-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    background-image: url('../../assets/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+    height: 30vh;
+}
+
+.wwe-top-banner h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    margin-left: 120px;
+
+}
+
+.wwe-top-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #8E8E8E;
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.wwe-mid-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    margin-top: 30px;
+
+}
+
+
+.wwe-mid-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 50vh;
+    margin-right: 120px;
+    border-radius: 10px;
+}
+
+.wwe-bot-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    margin-top: 30px;
+}
+
+.wwe-bot-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+    background-image: url('../../assets/vision.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+
+}
+
+.wwe-bot-left-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+
+.wwe-bot-left-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+
+.wwe-bot-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+    background-image: url('../../assets/mission.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+
+}
+
+.wwe-bot-right-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+
+.wwe-bot-right-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .wwe-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .wwe-top-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .wwe-top-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 1;
+    }
+
+    .wwe-top-right {
+
+        width: 100%;
+        clip-path: polygon(00% 0%, 100% 0%, 100% 80%, 0% 100%);
+
+    }
+
+    .wwe-top-heading {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #424242;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .wwe-mid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+
+    }
+
+    .wwe-top-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        color: #8E8E8E;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .wwe-mid-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 88%;
+        height: 40vh;
+        margin-right: 20px;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .wwe-bot-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+
+    .wwe-bot-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 86%;
+        height: 100%;
+        background-image: url('../../assets/vision.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100% 100%;
+        margin-bottom: 20px;
+        border-radius: 10px;
+
+    }
+
+    .wwe-bot-left-heading {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .wwe-bot-left-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 100;
+        color: #000;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .wwe-bot-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 86%;
+        height: 100%;
+        background-image: url('../../assets/mission.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100% 100%;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        margin-top: 1rem;
+
+    }
+
+    .wwe-bot-right-heading {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .wwe-bot-right-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 100;
+        color: #fff;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+
+
+}
