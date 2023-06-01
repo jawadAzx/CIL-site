@@ -20,8 +20,11 @@ const Wwe = () => {
             </div>
             <div className='wwe-mid-container '>
                 < div className='wwe-top-text'>
-                    Envisioning value creation for a multitude of stakeholders, Engro has invested in a diverse portfolio of businesses across the verticals of energy and related infrastructure, agricultural outputs, petrochemicals and telecommunication infrastructure in over 50 years. Engro is committed to helping overcome Pakistan’s energy crisis by using the country’s resources, and strengthen the agri-food sector by equipping our farmers with the right tools and capabilities.
-                    Engro recognizes that social prosperity is imperative for business growth. Hence, every venture of Engro operates on an inclusive business growth ideology wherein its success is integrated with the development of society. Investing today for a better tomorrow for Pakistan is at the cornerstone of every business we venture into. It is this passion that fuels Engro to step into unchartered territories, bring sustainable solutions to the forefront, and become the leading provider of products and services in the energy, agricultural, chemicals, and nutrition sectors.
+
+                    Chemicides International Private Limited is a leading chemical company that provides high-quality agricultural products for improved crop yields and enhanced agrarian practices. Our commitment to excellence and innovation has become a trusted name in the industry.
+                    Our extensive product range includes cutting-edge solutions tailored to meet the specific needs of farmers and cultivators. From optimizing crop nutrition to promoting growth and productivity, our innovative formulations deliver outstanding results.
+                    Backed by a team of experienced professionals and state-of-the-art manufacturing facilities, we ensure consistent quality and superior performance in all our products. At Chemicides International, we prioritize customer satisfaction and sustainable agriculture practices.
+                    Choose Chemicides International Private Limited as your reliable partner for agricultural excellence. Discover our range of practical solutions to support the global agricultural community and contribute to a greener, healthier future. Experience the difference with Chemicides International.
                 </div>
                 <img src={wweimg} alt="wweimg" className="wwe-mid-img" />
             </div>
@@ -31,16 +34,14 @@ const Wwe = () => {
                         Vision
                     </div>
                     < div className='wwe-bot-left-text'>
-                        To be the premier Pakistani enterprise with a global reach, passionately pursuing value creation for all stakeholders.
-                    </div>
+                        Revolutionizing agriculture with innovative, sustainable solutions for higher yields, improved crop quality, and a food-secure future.                    </div>
                 </div>
                 <div className='wwe-bot-right'>
                     <div className='wwe-bot-right-heading'>
                         Mission
                     </div>
                     < div className='wwe-bot-right-text'>
-                        To be the premier Pakistani enterprise with a global reach, passionately pursuing value creation for all stakeholders.
-                    </div>
+                        Our mission is to be a trusted provider of high-quality agricultural products, supporting farmers worldwide with innovative solutions for sustainable crop growth and enhanced yields.                    </div>
                 </div>
             </div>
 
