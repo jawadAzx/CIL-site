@@ -15,10 +15,14 @@ const Header = () => {
             setActive(0);
         } else if (location.pathname === '/wwe') {
             setActive(1);
-        } else if (location.pathname === '/products') {
+        } else if (location.pathname === '/granular') {
             setActive(2);
-        }  else if (location.pathname === '/contact') {
+        }
+        else if (location.pathname === '/liquid') {
             setActive(3);
+        }
+        else if (location.pathname === '/contact') {
+            setActive(4);
         }
     }, [location.pathname]);
 
@@ -73,17 +77,24 @@ const Header = () => {
                 </div>
                 <div
                     className='header-text'
-                    onClick={() => handleNavigation(2, '/products')}
+                    onClick={() => handleNavigation(2, '/granular')}
                 >
-                    Our products
+                    Granular Fertilizers
                     <div className={active === 2 ? 'line-red-active' : 'line-red'}></div>
                 </div>
                 <div
                     className='header-text'
-                    onClick={() => handleNavigation(3, '/contact')}
+                    onClick={() => handleNavigation(3, '/liquid')}
+                >
+                    Liquid Fertilizers
+                    <div className={active === 3 ? 'line-red-active' : 'line-red'}></div>
+                </div>
+                <div
+                    className='header-text'
+                    onClick={() => handleNavigation(4, '/contact')}
                 >
                     Contact us
-                    <div className={active === 3 ? 'line-red-active' : 'line-red'}></div>
+                    <div className={active === 4 ? 'line-red-active' : 'line-red'}></div>
                 </div>
             </div>
             <div className='line'></div>

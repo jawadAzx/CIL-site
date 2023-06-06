@@ -15,7 +15,7 @@ const Dashboard = () => {
                 </div>
                 <button
                     className='transparent-button'
-                    onClick={() => navigate('/products')}
+                    onClick={() => navigate('/wwe')}
                 >
                     Get Started
                 </button>

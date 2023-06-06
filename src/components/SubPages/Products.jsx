@@ -6,15 +6,15 @@ import { useNavigate } from 'react-router-dom'
 const Products = () => {
     const navigate = useNavigate()
 
-    const zinc = [
+    const zincSulphateProducts = [
         {
             id: 1,
             imageUrl: p1,
-            title: 'Agro gold 21%',
+            title: 'Zinc sulphate 21%',
             details: 'A product containing zinc sulfate with a concentration of 21%. It is used as a fertilizer additive to provide plants with zinc, which is an essential micronutrient for their growth and development.',
-            price: 1000,
+            price: 1525,
             advantages: [
-                'Advantage 1',
+                '4kg pack',
                 'Advantage 2',
                 'Advantage 3',
                 'Advantage 4',
@@ -25,102 +25,189 @@ const Products = () => {
         {
             id: 2,
             imageUrl: p1,
-            title: 'Sapphire 27%',
+            title: 'Zinc sulphate 33%',
             details: 'Zinc sulfate product with a higher concentration of 27%. It serves a similar purpose as Agro gold, but with a higher percentage of zinc sulfate.',
-            price: 1000,
+            price: 1725,
             advantages: [
-                'Advantage 1',
+                '3kg pack',
                 'Advantage 2',
                 'Advantage 3',
                 'Advantage 4',
                 'Advantage 5',
             ],
             category: 'Zinc Sulphate'
-
-        },
+        }
+    ];
+    const copperSulfateProducts = [
         {
             id: 3,
             imageUrl: p1,
-            title: 'Commander  33%',
-            details: 'A zinc sulfate product with a concentration of 33%. It is designed to deliver a higher amount of zinc sulfate to plants for improved nutrient uptake and overall health.',
-            price: 1000,
+            title: 'Copper sulfate 25%',
+            details: 'A product containing copper sulfate with a concentration of 25%. It is used as a fertilizer additive to provide plants with copper, which is an essential micronutrient for their growth and development.',
+            price: 25000,
             advantages: [
-                'Advantage 1',
+                '25kg pack',
                 'Advantage 2',
                 'Advantage 3',
                 'Advantage 4',
                 'Advantage 5',
             ],
-            category: 'Zinc Sulphate'
-
-        },
+            category: 'Copper Sulfate'
+        }
     ];
-    const humicAcid = [
+
+    const multiMicronutrientsProducts = [
+        {
+            id: 4,
+            imageUrl: p1,
+            title: 'Multi micronutrients',
+            details: 'A product containing multiple micronutrients including 8% zinc and 2% iron. It provides essential nutrients to plants for healthy growth and development.',
+            price: 950,
+            advantages: [
+                '4kg pack',
+                'Advantage 2',
+                'Advantage 3',
+                'Advantage 4',
+                'Advantage 5',
+            ],
+            category: 'Multi Micronutrients'
+        }
+    ];
+    const ammoniumSulphateProducts = [
         {
             id: 5,
             imageUrl: p1,
-            title: 'Nappier (liquid)',
-            details: 'A liquid humic acid product that helps improve soil quality and enhance plant growth. It contains a certain percentage of humic acid, which aids in nutrient absorption and root development.',
-            price: 1000,
+            title: 'Ammonium sulphate',
+            details: 'A product containing ammonium sulfate with 21% nitrogen and 24% sulfur. It provides a readily available source of nitrogen and sulfur for plants.',
+            price: 3700,
             advantages: [
-                'Advantage 1',
+                '50kg pack',
                 'Advantage 2',
                 'Advantage 3',
                 'Advantage 4',
                 'Advantage 5',
             ],
-            category: 'Humic acid'
-        },
+            category: 'Ammonium Sulphate'
+        }
+    ];
+    const ammoniumPhosphateProducts = [
         {
             id: 6,
             imageUrl: p1,
-            title: 'Marcoplo granular',
-            details: 'A granular humic acid product, which can be applied to the soil to enhance its fertility and structure. It contains a certain percentage of humic acid to provide its beneficial effects.',
-            price: 1000,
+            title: 'Ammonium phosphate',
+            details: 'A product containing ammonium phosphate with 11% nitrogen and 46% P2O5. It provides a source of nitrogen and phosphorus for plants.',
+            price: 5000,
             advantages: [
-                'Advantage 1',
+                '25kg pack',
                 'Advantage 2',
                 'Advantage 3',
                 'Advantage 4',
                 'Advantage 5',
             ],
-            category: 'Humic acid'
-        },
+            category: 'Ammonium Phosphate'
+        }
     ];
-    const copperSulphate = [
+    const potassiumSulphateProducts = [
         {
             id: 7,
             imageUrl: p1,
-            title: 'Sapphire 25%',
-            details: 'A copper sulfate product with a concentration of 25%. It is commonly used as a fungicide and algaecide in agriculture to control fungal diseases in plants and prevent algae growth.',
-            price: 1000,
+            title: 'Potassium sulphate',
+            details: 'A product containing potassium sulfate with a concentration of 50% K2O. It provides plants with potassium, an essential macronutrient for their growth and development.',
+            price: 7500,
             advantages: [
-                'Advantage 1',
+                '25kg pack',
                 'Advantage 2',
                 'Advantage 3',
                 'Advantage 4',
                 'Advantage 5',
             ],
-            category: 'Humic acid'
-        },
+            category: 'Potassium Sulphate'
+        }
     ];
-    const potash = [
+    const humicAcidProducts = [
         {
             id: 8,
             imageUrl: p1,
-            title: 'Chinar liquid potash 30%',
-            details: 'A liquid potash product with a concentration of 30%. Potash, typically in the form of potassium chloride, is a vital nutrient for plant growth, and this product provides a certain percentage of potassium to support plant development.',
-            price: 1000,
+            title: 'Humic acid',
+            details: 'A product containing 40% humic acid and 7% potassium. It helps improve soil structure and nutrient availability to plants.',
+            price: 1400,
             advantages: [
-                'Advantage 1',
+                '8kg pack',
                 'Advantage 2',
                 'Advantage 3',
                 'Advantage 4',
                 'Advantage 5',
             ],
-            category: 'Potash'
-        },
+            category: 'Humic Acid'
+        }
     ];
+    const npkFertilizerProducts = [
+        {
+            id: 9,
+            imageUrl: p1,
+            title: 'N:P:K 10:10:10',
+            details: 'A balanced fertilizer with equal proportions of nitrogen, phosphorus, and potassium (N:P:K = 10:10:10). It provides essential macronutrients for plant growth.',
+            price: 6250,
+            advantages: [
+                '25kg pack',
+                'Advantage 2',
+                'Advantage 3',
+                'Advantage 4',
+                'Advantage 5',
+            ],
+            category: 'NPK Fertilizer'
+        },
+        {
+            id: 10,
+            imageUrl: p1,
+            title: 'N:P:K 20:20:20',
+            details: 'A balanced fertilizer with higher proportions of nitrogen, phosphorus, and potassium (N:P:K = 20:20:20). It provides essential macronutrients for plant growth.',
+            price: 12500,
+            advantages: [
+                '25kg pack',
+                'Advantage 2',
+                'Advantage 3',
+                'Advantage 4',
+                'Advantage 5',
+            ],
+            category: 'NPK Fertilizer'
+        }
+    ];
+    const potassiumNitrateProducts = [
+        {
+            id: 11,
+            imageUrl: p1,
+            title: 'Potassium Nitrate',
+            details: 'A product containing potassium nitrate with a ratio of 13:0:44 (N:P:K). It provides a source of potassium and nitrogen for plants.',
+            price: 9000,
+            advantages: [
+                '25kg pack',
+                'Advantage 2',
+                'Advantage 3',
+                'Advantage 4',
+                'Advantage 5',
+            ],
+            category: 'Potassium Nitrate'
+        }
+    ];
+    const ureaPhosphateProducts = [
+        {
+            id: 12,
+            imageUrl: p1,
+            title: 'Urea Phosphate 17:44:0',
+            details: 'A product containing urea phosphate with a ratio of 17:44:0 (N:P:K). It provides a source of nitrogen and phosphorus for plants.',
+            price: 8500,
+            advantages: [
+                '25kg pack',
+                'Advantage 2',
+                'Advantage 3',
+                'Advantage 4',
+                'Advantage 5',
+            ],
+            category: 'Urea Phosphate'
+        }
+    ];
+
 
 
     const Grid = (props) => {
@@ -128,7 +215,6 @@ const Products = () => {
         return (
             <div className="product-grid">
                 {data.map((card) => (
-
                     <div className="product-card" key={card.id} onClick={
                         () => {
                             navigate('/buy', { state: { card } })
@@ -151,13 +237,10 @@ const Products = () => {
 
     return (
         <div className='product-container'>
-            {/* < div className="product-top-banner">
-            <h1> Cultivating success with <br /> every sprinkle.</h1>
-        </div> */}
             <div className='product-top-container'>
                 <div className='product-top-left'>
                     <div className='product-top-heading'>
-                        Our Products
+                        Granular Fertilizers
                     </div>
                 </div>
                 <div className='product-top-right'>
@@ -168,19 +251,45 @@ const Products = () => {
                 <div className='product-category-heading'>
                     Zinc Sulphate
                 </div>
-                <Grid data={zinc} />
-                <div className='product-category-heading mt-30'>
-                    Humic acid
-                </div>
-                <Grid data={humicAcid} />
+                <Grid data={zincSulphateProducts} />
                 <div className='product-category-heading mt-30'>
                     Copper Sulphate
                 </div>
-                <Grid data={copperSulphate} />
+                <Grid data={copperSulfateProducts} />
                 <div className='product-category-heading mt-30'>
-                    Potash
+                    Multi Micronutrients
                 </div>
-                <Grid data={potash} />
+                <Grid data={multiMicronutrientsProducts} />
+                <div className='product-category-heading mt-30'>
+                    Ammonium Sulphate
+                </div>
+                <Grid data={ammoniumSulphateProducts} />
+                <div className='product-category-heading mt-30'>
+                    Ammonium Phosphate
+                </div>
+                <Grid data={ammoniumPhosphateProducts} />
+                <div className='product-category-heading mt-30'>
+                    Potassium Sulphate
+                </div>
+
+                <Grid data={potassiumSulphateProducts} />
+                <div className='product-category-heading mt-30'>
+                    Humic Acid
+                </div>
+                <Grid data={humicAcidProducts} />
+                <div className='product-category-heading mt-30'>
+                    NPK Fertilizer
+                </div>
+                <Grid data={npkFertilizerProducts} />
+                <div className='product-category-heading mt-30'>
+                    Potassium Nitrate
+                </div>
+                <Grid data={potassiumNitrateProducts} />
+                <div className='product-category-heading mt-30'>
+                    Urea Phosphate
+                </div>
+                <Grid data={ureaPhosphateProducts} />
+
             </div>
         </div>
     )
