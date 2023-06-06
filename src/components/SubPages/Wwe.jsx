@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Wwe.css"
 import wwebanner from "../../assets/wwebanner.jpg"
-import wweimg from "../../assets/wwemid.jpg"
+import wweimg from "../../assets/wwemid2.jpg"
 const Wwe = () => {
     return (
         <div className='wwe-container'>
@@ -11,7 +11,7 @@ const Wwe = () => {
             <div className='wwe-top-container'>
                 <div className='wwe-top-left'>
                     <div className='wwe-top-heading'>
-                        Who We Are
+                        About us
                     </div>
                 </div>
                 <div className='wwe-top-right'>
@@ -34,7 +34,8 @@ const Wwe = () => {
                         Vision
                     </div>
                     < div className='wwe-bot-left-text'>
-                        Revolutionizing agriculture with innovative, sustainable solutions for higher yields, improved crop quality, and a food-secure future.                    </div>
+                        We believe in treating our farmers with respect and faith. Our motto is to provide high-quality products that exceed the expectations of our esteemed customers.
+                    </div>
                 </div>
                 <div className='wwe-bot-right'>
                     <div className='wwe-bot-right-heading'>

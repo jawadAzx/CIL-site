@@ -39,8 +39,8 @@
 
 .transparent-button {
     background-color: transparent;
-    border: 2px solid #ff0000;
-    color: #ff0000;
+    border: 2px solid #3E4095;
+    color: #3E4095;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -49,7 +49,7 @@
 }
 
 .transparent-button:hover {
-    background-color: #ff0000;
+    background-color: #3E4095;
     color: #ffffff;
     /* Optional: Change text color on hover */
 }

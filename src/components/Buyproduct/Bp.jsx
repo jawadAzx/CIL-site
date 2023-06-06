@@ -167,21 +167,19 @@ const Bp = () => {
                     <div className='buy-prod-desc'>
                         {state.card.details}
                     </div>
-                    <span >
-                        <div className='buy-prod-adv-heading'>
+                    {/* <div className='buy-prod-adv-heading'>
                             Advantages
-                        </div>
-                        <ul className='buy-prod-adv-list'>
-                            {
-                                state.card.advantages.map((advantage) => (
-                                    <li className='buy-prod-adv-list-item'>
-                                        {advantage}
-                                    </li>
-                                ))
+                        </div> */}
+                    <ul className='buy-prod-adv-list'>
+                        {
+                            state.card.advantages.map((advantage) => (
+                                <li className='buy-prod-adv-list-item'>
+                                    {advantage}
+                                </li>
+                            ))
 
-                            }
-                        </ul>
-                    </span>
+                        }
+                    </ul>
 
                 </span>
                 <span className='buy-prod-details-container'>

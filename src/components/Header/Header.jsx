@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Header.css';
-import { ReactComponent as Logo } from '../../assets/logo.svg';
+import logo from "../../assets/logo.jpeg"
 import { ReactComponent as Ham } from '../../assets/hamburger.svg';
 const Header = () => {
     const [active, setActive] = useState(0);
@@ -11,10 +11,12 @@ const Header = () => {
     const [isHeaderFixed, setIsHeaderFixed] = useState(false);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         if (location.pathname === '/') {
             setActive(0);
         } else if (location.pathname === '/wwe') {
             setActive(1);
+
         } else if (location.pathname === '/granular') {
             setActive(2);
         }
@@ -47,12 +49,13 @@ const Header = () => {
     const headerClassName1 = isHeaderFixed == 0 ? 'header-container' : 'header-container mt-17';
     return (
         <div ref={headerRef} className={headerClassName}>
-            <Logo
+            <img
                 onClick={() => {
                     setActive("home");
                     navigate('/');
                 }}
                 className="header-logo"
+                src={logo}
             />
             <Ham
                 className="header-ham"
@@ -72,7 +75,7 @@ const Header = () => {
                     className='header-text'
                     onClick={() => handleNavigation(1, '/wwe')}
                 >
-                    Who we are
+                    About us
                     <div className={active === 1 ? 'line-red-active' : 'line-red'}></div>
                 </div>
                 <div

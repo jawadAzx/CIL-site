@@ -20,7 +20,7 @@ const Contact = () => {
                         Address
                     </div>
                     <div className='contact-text'>
-                        123, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                        1st floor Regent Mall, Habib Jalib road, D-Ground, Faisalabad
                     </div>
                 </div>
                 <div className='contact-details-container'>
@@ -28,7 +28,7 @@ const Contact = () => {
                         Phone
                     </div>
                     <div className='contact-text'>
-                        1234567890
+                        041-855 4406
                     </div>
                 </div>
                 <div className='contact-details-container'>
@@ -37,7 +37,7 @@ const Contact = () => {
                         Email
                     </div>
                     <div className='contact-text'>
-                        lore@gmail.com
+                        chemicides@gmail.com
                     </div>
                 </div>
             </div>

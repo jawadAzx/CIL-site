@@ -130,6 +130,7 @@
     width: 33.3%;
     height: 100%;
     margin-top: 45px;
+    margin-left: 65px;
 
 }
 
@@ -148,7 +149,7 @@
     font-weight: 400;
     color: #424242;
     margin-left: 65px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .buy-prod-advantages {
@@ -220,7 +221,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.buy-prod-adv-list-item{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #424242;
 
+}
 .buy-button:hover {
     background-color: #ff0000;
     color: #fff;
@@ -379,6 +386,7 @@
         width: 86%;
         height: 100%;
         margin-top: 15px;
+        margin-left: 0;
 
     }
 
@@ -409,7 +417,7 @@
         font-weight: 400;
         color: #424242;
         margin-left: 0;
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
 
     .buy-prod-advantages {

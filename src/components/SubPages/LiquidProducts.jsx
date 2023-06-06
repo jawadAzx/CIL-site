@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Products.css"
-import wwebanner from "../../assets/productpage.jpg"
+import wwebanner from "../../assets/liquidProductpage.jpg"
 import p1 from "../../assets/p1.jpg"
 import { useNavigate } from 'react-router-dom'
 const Products = () => {
@@ -10,24 +10,35 @@ const Products = () => {
         {
             id: 1,
             imageUrl: p1,
-            title: 'Liquid zinc 10%',
-            details: 'A liquid fertilizer product containing 10% zinc. It provides plants with zinc, which is an essential micronutrient for their growth and development.',
+            title: 'Liquid Zinc 10% | 20 Litre pack',
+            details: 'Unlock the power of liquid zinc for your plants with our high-quality fertilizer. This innovative blend contains 10% zinc, a crucial micronutrient for plant growth and development. Experience the transformative benefits of liquid zinc, including improved nutrient uptake, enhanced enzyme activity, and increased plant vigor. Choose our liquid zinc fertilizer for healthier plants and improved crop yields.',
             price: 3000,
             advantages: [
-                '20 Litre pack',
+                "Provides essential zinc micronutrient",
+                "Improves nutrient uptake and utilization",
+                "Enhances enzyme activity",
+                "Stimulates plant vigor and growth",
+                "Increases crop yields and quality",
+                "Suitable for a wide range of crops including field crops, vegetables, and fruits"
             ],
             category: 'Liquid Zinc'
         }
     ];
+
     const liquidHumicAcidProducts = [
         {
             id: 2,
             imageUrl: p1,
-            title: 'Liquid Humic Acid 10%',
-            details: 'A liquid fertilizer product containing 10% humic acid and 3.5% potassium oxide (K2O). It helps improve soil structure and nutrient availability to plants.',
+            title: 'Liquid Humic Acid 10% | 20 Litre',
+            details: 'Experience the benefits of liquid humic acid for your plants with our premium fertilizer. This exceptional blend contains 10% humic acid and 3.5% potassium oxide (K2O) to enhance nutrient availability and improve soil health. Unlock the transformative power of liquid humic acid, including improved nutrient absorption, root development, and overall plant vitality. Choose our liquid humic acid fertilizer for healthier plants and superior crop performance.',
             price: 2500,
             advantages: [
-                '20 Litre pack',
+                "Enhances nutrient availability and absorption",
+                "Improves soil health and fertility",
+                "Stimulates root development",
+                "Enhances overall plant vitality",
+                "Increases crop yields and quality",
+                "Ideal for a wide range of crops including field crops, vegetables, and fruits"
             ],
             category: 'Liquid Humic Acid'
         }
@@ -37,84 +48,132 @@ const Products = () => {
         {
             id: 3,
             imageUrl: p1,
-            title: 'Ammonium Thiosulfate',
-            details: 'A liquid fertilizer product containing 11% nitrogen and 25% sulfur in the form of ammonium thiosulfate. It provides a readily available source of nitrogen and sulfur for plants.',
+            title: 'Ammonium Thiosulfate | 20 Litre',
+            details: 'Unlock the potential of your plants with our premium ammonium thiosulfate fertilizer. This powerful blend contains 11% nitrogen and 25% sulfur, providing essential nutrients for optimal plant growth and health. Experience the transformative benefits of ammonium thiosulfate, including improved nutrient uptake, enhanced root development, and increased crop yields. Choose our ammonium thiosulfate fertilizer for healthier plants and superior crop performance.',
             price: 2300,
             advantages: [
-                '20 Litre pack',
+                "Provides essential nitrogen and sulfur",
+                "Promotes optimal plant growth and health",
+                "Enhances nutrient uptake and utilization",
+                "Improves root development",
+                "Increases crop yields and quality",
+                "Ideal for a wide range of crops including field crops, vegetables, and fruits"
             ],
             category: 'Ammonium Thiosulfate'
         }
     ];
+
     const potassiumThiosulfateProducts = [
         {
             id: 4,
             imageUrl: p1,
-            title: 'Potassium Thiosulfate',
-            details: 'A liquid fertilizer product containing 36% potassium and 36% sulfur in the form of potassium thiosulfate. It provides plants with potassium and sulfur, which are essential nutrients for their growth and development.',
+            title: 'Potassium Thiosulfate| 10 Litre',
+            details: 'Experience the power of potassium thiosulfate, a high-quality fertilizer enriched with 36% potassium and 36% sulfur. This potent blend provides essential nutrients for optimal plant growth and development. Unlock the full potential of your crops with our potassium thiosulfate formula, ensuring robust growth, improved nutrient uptake, and increased crop yields. Choose our potassium thiosulfate fertilizer for healthier plants and superior crop performance.',
             price: 5500,
             advantages: [
-                '10 Litre pack',
+                "Provides essential potassium and sulfur",
+                "Promotes optimal plant growth and development",
+                "Enhances nutrient uptake and utilization",
+                "Improves crop quality and yield",
+                "Suitable for a wide range of crops including field crops, vegetables, and fruits",
+                "Ideal for addressing potassium and sulfur deficiencies"
             ],
             category: 'Potassium Thiosulfate'
         }
     ];
+
     const calciumPolysulfideProducts = [
         {
             id: 5,
             imageUrl: p1,
-            title: 'Calcium polysulfide 22% (liquid sulphur)',
-            details: 'A liquid fertilizer product containing 22% calcium polysulfide, which provides a source of liquid sulfur for plants.',
+            title: 'Calcium Polysulfide 22% (Liquid Sulfur) | 10 Litre',
+            details: 'Unlock the power of liquid sulfur with our calcium polysulfide fertilizer. This innovative blend contains 22% liquid sulfur, a vital nutrient for promoting plant health and vitality. Experience the transformative benefits of calcium polysulfide, including improved nutrient availability, enhanced root development, and increased crop yields. Choose our calcium polysulfide fertilizer for healthier plants and superior crop performance.',
             price: 1000,
             advantages: [
-                '10 Litre pack',
+                "Provides essential liquid sulfur",
+                "Improves nutrient availability",
+                "Enhances root development",
+                "Promotes overall plant health",
+                "Increases crop yields and quality",
+                "Suitable for a wide range of crops including field crops, vegetables, and fruits"
             ],
             category: 'Calcium Polysulfide'
         }
     ];
+
     const liquidBoronProducts = [
         {
             id: 6,
             imageUrl: p1,
             title: 'Liquid Boron 5%',
-            details: 'A liquid fertilizer product containing 5% boron. It provides plants with boron, an essential micronutrient for their growth and development.',
-            price: 99,
-
+            details: 'Unlock the power of liquid boron for your plants with our high-quality fertilizer. This innovative blend contains 5% boron, an essential micronutrient for plant growth and development. Experience the transformative benefits of liquid boron, including improved flower and fruit set, enhanced pollen germination, and increased crop yields. Choose our liquid boron fertilizer for healthier plants and superior crop performance.',
+            price: 0, // Please provide the actual price for the product
             advantages: [
-                '// Add the advantages here,'
+                "Provides essential boron micronutrient",
+                "Promotes flower and fruit set",
+                "Enhances pollen germination",
+                "Increases crop yields and quality",
+                "Suitable for a wide range of crops including fruits, vegetables, and flowering plants",
+                "Ideal for addressing boron deficiencies"
             ],
             category: 'Liquid Boron'
         }
     ];
-    const liquidMicronutrientsProducts = [
+
+    const multiMicronutrientsProducts = [
         {
             id: 7,
             imageUrl: p1,
-            title: 'Multi micronutrients',
-            details: 'A liquid fertilizer product containing multiple micronutrients, including 6% zinc, 2% iron, 1% manganese, and 1% copper. It provides plants with essential micronutrients for their growth and development.',
-            price: 66,
+            title: 'Multi Micronutrients | 1 Litre',
+            details: 'Unlock the power of multi micronutrients for your plants with our premium fertilizer. This unique blend contains essential micronutrients including 6% zinc, 2% iron, 1% manganese, and 1% copper. Experience the transformative benefits of our multi micronutrients formula, including improved nutrient absorption, enhanced enzyme activity, and increased plant health. Choose our multi micronutrients fertilizer for healthier plants and superior crop performance.',
+            price: 300,
             advantages: [
-                "Add the advantages here,"
+                "Provides essential micronutrients including zinc, iron, manganese, and copper",
+                "Enhances nutrient absorption and utilization",
+                "Stimulates enzyme activity",
+                "Improves overall plant health",
+                "Increases crop yields and quality",
+                "Suitable for a wide range of crops including field crops, vegetables, and fruits"
+            ],
+            category: 'Multi Micronutrients'
+        },
+        {
+            id: 8,
+            imageUrl: p1,
+            title: 'Multi Micronutrients | 20 Litre',
+            details: 'Unlock the power of multi micronutrients for your plants with our premium fertilizer. This unique blend contains essential micronutrients including 6% zinc, 2% iron, 1% manganese, and 1% copper. Experience the transformative benefits of our multi micronutrients formula, including improved nutrient absorption, enhanced enzyme activity, and increased plant health. Choose our multi micronutrients fertilizer for healthier plants and superior crop performance.',
+            price: 2750,
+            advantages: [
+                "Provides essential micronutrients including zinc, iron, manganese, and copper",
+                "Enhances nutrient absorption and utilization",
+                "Stimulates enzyme activity",
+                "Improves overall plant health",
+                "Increases crop yields and quality",
+                "Suitable for a wide range of crops including field crops, vegetables, and fruits"
             ],
             category: 'Multi Micronutrients'
         }
     ];
+
+
     const liquidPotashProducts = [
         {
-            id: 8,
+            id: 9,
             imageUrl: p1,
-            title: 'Liquid potash 30%',
-            details: 'A liquid fertilizer product containing 30% potash (potassium). It provides plants with potassium, an essential macronutrient for their growth and development.',
+            title: 'Liquid Potash 30% | 10 Litre ',
+            details: 'Unlock the power of liquid potash for your plants with our high-quality fertilizer. This innovative blend contains 30% potash (potassium oxide), a crucial nutrient for promoting plant growth, fruit development, and overall plant health. Experience the transformative benefits of liquid potash, including improved root development, increased nutrient uptake, and enhanced crop yields. Choose our liquid potash fertilizer for healthier plants and superior crop performance.',
             price: 4500,
             advantages: [
-                '10 Litre pack',
+                "Provides essential potash (potassium) nutrient",
+                "Promotes plant growth and development",
+                "Enhances root development",
+                "Improves nutrient uptake and utilization",
+                "Increases fruit development and quality",
+                "Suitable for a wide range of crops including fruits, vegetables, and field crops"
             ],
             category: 'Liquid Potash'
         }
     ];
-
-
-
 
 
     const Grid = (props) => {
@@ -128,7 +187,7 @@ const Products = () => {
                             navigate('/buy', { state: { card } })
                         }
                     }>
-                        <img src={card.imageUrl} alt={card.title} className="product-card-image" />
+                        <img src={card.imageUrl} p1t={card.title} className="product-card-image" />
                         <div className="product-card-details">
                             <h2 className="product-card-title">{card.title}</h2>
                             <p className="product-card-description">{card.details}</p>
@@ -186,7 +245,7 @@ const Products = () => {
                 <div className="product-category-heading mt-30">
                     Multi Micronutrients
                 </div>
-                <Grid data={liquidMicronutrientsProducts} />
+                <Grid data={multiMicronutrientsProducts} />
                 <div className="product-category-heading mt-30">
                     Liquid Potash
                 </div>

@@ -10,30 +10,32 @@ const Products = () => {
         {
             id: 1,
             imageUrl: p1,
-            title: 'Zinc sulphate 21%',
+            title: 'Zinc sulphate 21% | 4kg pack',
             details: 'A product containing zinc sulfate with a concentration of 21%. It is used as a fertilizer additive to provide plants with zinc, which is an essential micronutrient for their growth and development.',
             price: 1525,
             advantages: [
-                '4kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                'Promotes vigorous growth of lush and healthy green leaves.',
+                'Prevents withering and patchy growth, leading to the development of normal-sized leaves.',
+                'Higher zinc content in zinc sulfate enhances the plants ability to fight off diseases, resulting in overall improved growth.',
+                'Using zinc sulfate with higher zinc concentration has been proven to significantly increase crop yield. It also reduces problems like chlorosis (yellowing of leaves), flower and fruit drop, ensuring better productivity.',
+                'Supports the growth of crop shoots and accelerates the formation of grains and fruits.',
+                'Best for crops like rice, wheat, maize, sugarcane, cotton, and vegetables.'
             ],
             category: 'Zinc Sulphate'
         },
         {
             id: 2,
             imageUrl: p1,
-            title: 'Zinc sulphate 33%',
-            details: 'Zinc sulfate product with a higher concentration of 27%. It serves a similar purpose as Agro gold, but with a higher percentage of zinc sulfate.',
+            title: 'Zinc sulphate 33% | 3kg pack',
+            details: 'Zinc sulfate product with a higher concentration of 33%. It serves a similar purpose as Agro gold, but with a higher percentage of zinc sulfate.',
             price: 1725,
             advantages: [
-                '3kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                'Promotes vigorous growth of lush and healthy green leaves.',
+                'Prevents withering and patchy growth, leading to the development of normal-sized leaves.',
+                'Enhances the plants resistance to diseases and boosts overall growth rate.',
+                'Proven to significantly increase crop yield and reduce the occurrence of chlorosis, flower, and fruit drop.',
+                'Supports the growth of crop shoots and accelerates the formation of grains and fruits.',
+                'Best for crops like rice, wheat, maize, sugarcane, cotton, and vegetables.'
             ],
             category: 'Zinc Sulphate'
         }
@@ -42,15 +44,13 @@ const Products = () => {
         {
             id: 3,
             imageUrl: p1,
-            title: 'Copper sulfate 25%',
-            details: 'A product containing copper sulfate with a concentration of 25%. It is used as a fertilizer additive to provide plants with copper, which is an essential micronutrient for their growth and development.',
+            title: 'Copper sulfate 25% | 25kg pack',
+            details: 'Gardeners and commercial farmers often utilize copper sulphate as a fertilizer or fungicide to combat fungal infections and molds.',
             price: 25000,
             advantages: [
-                '25kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                'Copper sulphate is widely utilized as a fungicide to combat fungal infections in crops. It inhibits the growth and development of fungi, helping to prevent and manage diseases such as blight, mildew, and rust.',
+                'Copper deficiency in soils can negatively affect plant growth and development. Copper sulphate is employed as a soil amendment to correct this deficiency. It provides essential copper ions to plants, promoting healthy growth and ensuring optimal nutrient uptake.',
+                'Copper sulphate is used as a fungicide, algaecide, root killer, and herbicide in agriculture.',
             ],
             category: 'Copper Sulfate'
         }
@@ -60,15 +60,16 @@ const Products = () => {
         {
             id: 4,
             imageUrl: p1,
-            title: 'Multi micronutrients',
-            details: 'A product containing multiple micronutrients including 8% zinc and 2% iron. It provides essential nutrients to plants for healthy growth and development.',
+            title: 'Multi micronutrients | 4kg pack',
+            details: 'Introducing our breakthrough multi-micronutrient fertilizer, enriched with zinc (Zn) and iron (Fe). This powerful formula unlocks plant potential by enhancing growth, improving nutrient uptake, and fortifying against deficiencies and diseases. Experience exceptional results and bountiful yields with our innovative fertilizer.',
             price: 950,
             advantages: [
-                '4kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                "Enhanced plant growth and development",
+                "Increased chlorophyll production for improved photosynthesis",
+                "Improved nutrient uptake and transport within plants",
+                "Prevention of nutrient deficiencies",
+                "Enhanced disease resistance and stress tolerance",
+                "Best for Cereal crops, Fruit trees, Leafy vegetables, Legumes ,and Ornamental plants such as flowers, shrubs"
             ],
             category: 'Multi Micronutrients'
         }
@@ -77,15 +78,16 @@ const Products = () => {
         {
             id: 5,
             imageUrl: p1,
-            title: 'Ammonium sulphate',
-            details: 'A product containing ammonium sulfate with 21% nitrogen and 24% sulfur. It provides a readily available source of nitrogen and sulfur for plants.',
+            title: 'Ammonium sulphate | 50kg pack',
+            details: 'Our revolutionary fertilizer, packed with 21% nitrogen (N) and an impressive 24% sulfur (S) from ammonium sulfate. This powerful blend promotes vigorous plant growth, boosts nutrient absorption, and ensures optimal performance. Unlock the potential of your plants with our transformative formula for thriving growth and abundant yields.',
             price: 3700,
             advantages: [
-                '50kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                "Promotes vigorous plant growth",
+                "Enhances nutrient absorption and utilization",
+                "Boosts chlorophyll production for improved photosynthesis",
+                "Strengthens plant structure and resilience",
+                "Increases crop yields and quality",
+                "Best for Broccoli, Cabbage, Cauliflower, Kale, Tomatoes, Peppers, Eggplants, Peas, Lentils, Soybeans Onions and Garlic"
             ],
             category: 'Ammonium Sulphate'
         }
@@ -94,15 +96,16 @@ const Products = () => {
         {
             id: 6,
             imageUrl: p1,
-            title: 'Ammonium phosphate',
-            details: 'A product containing ammonium phosphate with 11% nitrogen and 46% P2O5. It provides a source of nitrogen and phosphorus for plants.',
-            price: 5000,
+            title: 'Ammonium phosphate | 25kg pack',
+            details: 'Our innovative fertilizer contains 11% nitrogen (N) and an impressive 46% phosphorus pentoxide (P2O5) derived from ammonium phosphate. This powerful formula promotes optimal plant growth, supports root development, and enhances nutrient uptake. Unlock the full potential of your crops with our transformative blend for abundant yields and improved quality.',
+            price: 4100,
             advantages: [
-                '25kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                "Promotes optimal plant growth",
+                "Supports root development",
+                "Enhances nutrient uptake",
+                "Boosts phosphorus availability for vital plant processes",
+                "Increases crop yields and quality",
+                "Best for crops requiring higher phosphorus levels such as corn, potatoes, tomatoes, beans, and fruits"
             ],
             category: 'Ammonium Phosphate'
         }
@@ -111,104 +114,112 @@ const Products = () => {
         {
             id: 7,
             imageUrl: p1,
-            title: 'Potassium sulphate',
-            details: 'A product containing potassium sulfate with a concentration of 50% K2O. It provides plants with potassium, an essential macronutrient for their growth and development.',
-            price: 7500,
+            title: 'Potassium sulfate | 25kg pack',
+            details: 'Experience the power of our premium fertilizer enriched with an impressive 50% potassium oxide (K2O) sourced from potassium sulfate. This exceptional blend promotes robust plant growth, stimulates flowering and fruiting, and improves plant resilience to environmental stress. Unlock the full potential of your crops with our high-quality formula, ensuring abundant yields and superior crop quality.',
+            price: 2500,
             advantages: [
-                '25kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                "Promotes vigorous plant growth",
+                "Stimulates flowering and fruiting",
+                "Enhances plant resilience to environmental stress",
+                "Optimizes potassium levels for essential plant functions",
+                "Increases crop yields and improves quality",
+                "Ideal for a wide range of crops including fruits, vegetables, and flowering plants"
             ],
-            category: 'Potassium Sulphate'
+            category: 'Potassium Sulfate'
         }
     ];
+
     const humicAcidProducts = [
         {
             id: 8,
             imageUrl: p1,
-            title: 'Humic acid',
-            details: 'A product containing 40% humic acid and 7% potassium. It helps improve soil structure and nutrient availability to plants.',
+            title: 'Humic acid | 8kg pack',
+            details: 'Unlock the potential of your plants with our premium fertilizer enriched with 40% humic acid and 7% potassium. This exceptional blend promotes enhanced nutrient absorption, improves soil structure, and boosts plant resilience. Experience the transformative power of humic acid for healthier plants, increased yields, and improved overall plant performance.',
             price: 1400,
             advantages: [
-                '8kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                "Enhances nutrient absorption",
+                "Improves soil structure and fertility",
+                "Boosts plant resilience to stress",
+                "Increases root development",
+                "Improves plant health and vitality",
+                "Ideal for a wide range of crops including vegetables, fruits, and ornamental plants"
             ],
             category: 'Humic Acid'
         }
     ];
+
     const npkFertilizerProducts = [
         {
             id: 9,
             imageUrl: p1,
-            title: 'N:P:K 10:10:10',
-            details: 'A balanced fertilizer with equal proportions of nitrogen, phosphorus, and potassium (N:P:K = 10:10:10). It provides essential macronutrients for plant growth.',
+            title: 'NPK 10:10:10 | 25kg pack',
+            details: 'Unlock the potential of your plants with our balanced NPK fertilizer featuring a balanced ratio of 10:10:10. This versatile blend provides essential nitrogen, phosphorus, and potassium for optimal plant nutrition, resulting in balanced growth, improved root development, and overall plant health. Experience the transformative power of our balanced NPK formula, ensuring healthy growth and high-quality yields.',
             price: 6250,
             advantages: [
-                '25kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                "Promotes balanced plant growth",
+                "Enhances root development",
+                "Supports overall plant health",
+                "Provides essential nutrients for vital plant functions",
+                "Improves crop yields and quality",
+                "Suitable for a wide range of crops including vegetables, fruits, and field crops"
             ],
             category: 'NPK Fertilizer'
         },
         {
             id: 10,
             imageUrl: p1,
-            title: 'N:P:K 20:20:20',
-            details: 'A balanced fertilizer with higher proportions of nitrogen, phosphorus, and potassium (N:P:K = 20:20:20). It provides essential macronutrients for plant growth.',
+            title: 'NPK 20:20:20 | 25kg pack',
+            details: 'Experience the power of our high NPK fertilizer with a balanced ratio of 20:20:20. This potent blend provides a strong nutrient foundation for optimal plant growth, improved flowering, and increased yield potential. Unlock the true potential of your crops with our high NPK formula, ensuring robust growth, abundant blooms, and superior crop quality.',
             price: 12500,
             advantages: [
-                '25kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                "Promotes vigorous plant growth",
+                "Stimulates flowering and fruiting",
+                "Enhances nutrient availability and uptake",
+                "Provides balanced nutrition for optimal plant development",
+                "Boosts crop yields and improves quality",
+                "Suitable for a wide range of crops including vegetables, fruits, and field crops"
             ],
             category: 'NPK Fertilizer'
         }
     ];
+
     const potassiumNitrateProducts = [
         {
             id: 11,
             imageUrl: p1,
-            title: 'Potassium Nitrate',
-            details: 'A product containing potassium nitrate with a ratio of 13:0:44 (N:P:K). It provides a source of potassium and nitrogen for plants.',
+            title: 'Potassium Nitrate | 25kg pack',
+            details: 'Unlock the potential of your plants with our premium potassium nitrate fertilizer. This powerful blend with a ratio of 13:0:44 provides essential potassium and nitrogen for vigorous plant growth, improved flowering, and enhanced fruit development. Experience the transformative power of potassium nitrate for healthier plants, increased yields, and superior crop quality.',
             price: 9000,
             advantages: [
-                '25kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                "Promotes vigorous plant growth",
+                "Stimulates flowering and fruiting",
+                "Enhances nutrient absorption and utilization",
+                "Improves plant resilience to stress",
+                "Increases crop yields and improves quality",
+                "Ideal for fruiting crops, greenhouse plants, and high-value crops"
             ],
             category: 'Potassium Nitrate'
         }
     ];
+
     const ureaPhosphateProducts = [
         {
             id: 12,
             imageUrl: p1,
-            title: 'Urea Phosphate 17:44:0',
-            details: 'A product containing urea phosphate with a ratio of 17:44:0 (N:P:K). It provides a source of nitrogen and phosphorus for plants.',
+            title: 'Urea Phosphate | 25kg pack',
+            details: 'Experience the power of urea phosphate, a high-quality fertilizer enriched with a ratio of 17:44:0. This potent blend provides essential nitrogen and phosphorus for optimal plant growth, root development, and overall plant health. Unlock the full potential of your crops with our urea phosphate formula, ensuring robust growth, abundant yields, and improved crop quality.',
             price: 8500,
             advantages: [
-                '25kg pack',
-                'Advantage 2',
-                'Advantage 3',
-                'Advantage 4',
-                'Advantage 5',
+                "Promotes optimal plant growth",
+                "Enhances root development",
+                "Provides essential nitrogen and phosphorus",
+                "Improves nutrient uptake and utilization",
+                "Increases crop yields and improves quality",
+                "Suitable for a wide range of crops including field crops, vegetables, and fruits"
             ],
             category: 'Urea Phosphate'
         }
     ];
-
-
 
     const Grid = (props) => {
         const { data } = props;
