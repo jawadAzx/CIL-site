@@ -38,9 +38,10 @@
 }
 
 .transparent-button {
+    font-family: 'Roboto', sans-serif;
     background-color: transparent;
-    border: 2px solid #3E4095;
-    color: #3E4095;
+    border: 2px solid red;
+    color: #424242;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -49,7 +50,7 @@
 }
 
 .transparent-button:hover {
-    background-color: #3E4095;
+    background-color: red;
     color: #ffffff;
     /* Optional: Change text color on hover */
 }
