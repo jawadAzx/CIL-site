@@ -16,10 +16,13 @@ const Contact = () => {
             </div>
             <div className=''>
                 <div className='contact-details-container'>
-                    <div className='contact-bold-text'>
-                        Address
+                    <div className='contact-bold-1-text'>
+                        Chemicides International
+                        <span className='contact-bold-subtext'>
+                            (Pvt) Ltd.
+                        </span>
                     </div>
-                    <div className='contact-text'>
+                    <div className='contact-text mt-1'>
                         1st floor Regent Mall, Habib Jalib road, D-Ground, Faisalabad
                     </div>
                 </div>
@@ -28,7 +31,7 @@ const Contact = () => {
                         Phone
                     </div>
                     <div className='contact-text'>
-                        041-855 4406
+                        041-855 4406 / 8
                     </div>
                 </div>
                 <div className='contact-details-container'>

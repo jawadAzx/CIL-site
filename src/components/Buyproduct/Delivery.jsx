@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Delivery.css';
-import buy from '../../assets/buy.jpg';
+import buy from '../../assets/sc.jpg';
 import emailjs from '@emailjs/browser';
 import { DotLoader } from 'react-spinners';
 const Delivery = () => {

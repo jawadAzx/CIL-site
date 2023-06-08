@@ -10,7 +10,8 @@ const Products = () => {
         {
             id: 1,
             imageUrl: p1,
-            title: 'Liquid Zinc 10% | 20 Litre pack',
+            title: 'Scotch | Zn 10%',
+            size: '20 Litre',
             details: 'Unlock the power of liquid zinc for your plants with our high-quality fertilizer. This innovative blend contains 10% zinc, a crucial micronutrient for plant growth and development. Experience the transformative benefits of liquid zinc, including improved nutrient uptake, enhanced enzyme activity, and increased plant vigor. Choose our liquid zinc fertilizer for healthier plants and improved crop yields.',
             price: 3000,
             advantages: [
@@ -27,11 +28,46 @@ const Products = () => {
 
     const liquidHumicAcidProducts = [
         {
+            id: 11,
+            imageUrl: p1,
+            title: 'Nappier 10%',
+            size: '4 Litre',
+            details: 'Experience the benefits of liquid humic acid for your plants with our premium fertilizer. This exceptional blend contains 10% humic acid and 3.5% potassium oxide (K2O) to enhance nutrient availability and improve soil health. Unlock the transformative power of liquid humic acid, including improved nutrient absorption, root development, and overall plant vitality. Choose our liquid humic acid fertilizer for healthier plants and superior crop performance.',
+            price: 575,
+            advantages: [
+                "Enhances nutrient availability and absorption",
+                "Improves soil health and fertility",
+                "Stimulates root development",
+                "Enhances overall plant vitality",
+                "Increases crop yields and quality",
+                "Ideal for a wide range of crops including field crops, vegetables, and fruits"
+            ],
+            category: 'Liquid Humic Acid'
+        }
+        , {
             id: 2,
             imageUrl: p1,
-            title: 'Liquid Humic Acid 10% | 20 Litre',
+            title: 'Nappier 10%',
+            size: '20 Litre',
             details: 'Experience the benefits of liquid humic acid for your plants with our premium fertilizer. This exceptional blend contains 10% humic acid and 3.5% potassium oxide (K2O) to enhance nutrient availability and improve soil health. Unlock the transformative power of liquid humic acid, including improved nutrient absorption, root development, and overall plant vitality. Choose our liquid humic acid fertilizer for healthier plants and superior crop performance.',
             price: 2500,
+            advantages: [
+                "Enhances nutrient availability and absorption",
+                "Improves soil health and fertility",
+                "Stimulates root development",
+                "Enhances overall plant vitality",
+                "Increases crop yields and quality",
+                "Ideal for a wide range of crops including field crops, vegetables, and fruits"
+            ],
+            category: 'Liquid Humic Acid'
+        },
+        {
+            id: 12,
+            imageUrl: p1,
+            title: 'Nappier 10%',
+            size: '200 Litre',
+            details: 'Experience the benefits of liquid humic acid for your plants with our premium fertilizer. This exceptional blend contains 10% humic acid and 3.5% potassium oxide (K2O) to enhance nutrient availability and improve soil health. Unlock the transformative power of liquid humic acid, including improved nutrient absorption, root development, and overall plant vitality. Choose our liquid humic acid fertilizer for healthier plants and superior crop performance.',
+            price: 23000,
             advantages: [
                 "Enhances nutrient availability and absorption",
                 "Improves soil health and fertility",
@@ -48,7 +84,8 @@ const Products = () => {
         {
             id: 3,
             imageUrl: p1,
-            title: 'Ammonium Thiosulfate | 20 Litre',
+            title: 'Ammonium Thiosulfate',
+            size: '20 Litre',
             details: 'Unlock the potential of your plants with our premium ammonium thiosulfate fertilizer. This powerful blend contains 11% nitrogen and 25% sulfur, providing essential nutrients for optimal plant growth and health. Experience the transformative benefits of ammonium thiosulfate, including improved nutrient uptake, enhanced root development, and increased crop yields. Choose our ammonium thiosulfate fertilizer for healthier plants and superior crop performance.',
             price: 2300,
             advantages: [
@@ -67,7 +104,8 @@ const Products = () => {
         {
             id: 4,
             imageUrl: p1,
-            title: 'Potassium Thiosulfate| 10 Litre',
+            title: 'Potassium Thiosulfate',
+            size: '10 Litre',
             details: 'Experience the power of potassium thiosulfate, a high-quality fertilizer enriched with 36% potassium and 36% sulfur. This potent blend provides essential nutrients for optimal plant growth and development. Unlock the full potential of your crops with our potassium thiosulfate formula, ensuring robust growth, improved nutrient uptake, and increased crop yields. Choose our potassium thiosulfate fertilizer for healthier plants and superior crop performance.',
             price: 5500,
             advantages: [
@@ -86,7 +124,8 @@ const Products = () => {
         {
             id: 5,
             imageUrl: p1,
-            title: 'Calcium Polysulfide 22% (Liquid Sulfur) | 10 Litre',
+            title: 'Calcium Polysulfide 22%',
+            size: '10 Litre',
             details: 'Unlock the power of liquid sulfur with our calcium polysulfide fertilizer. This innovative blend contains 22% liquid sulfur, a vital nutrient for promoting plant health and vitality. Experience the transformative benefits of calcium polysulfide, including improved nutrient availability, enhanced root development, and increased crop yields. Choose our calcium polysulfide fertilizer for healthier plants and superior crop performance.',
             price: 1000,
             advantages: [
@@ -124,7 +163,8 @@ const Products = () => {
         {
             id: 7,
             imageUrl: p1,
-            title: 'Multi Micronutrients | 1 Litre',
+            title: 'Samarqand',
+            size: '1 Litre',
             details: 'Unlock the power of multi micronutrients for your plants with our premium fertilizer. This unique blend contains essential micronutrients including 6% zinc, 2% iron, 1% manganese, and 1% copper. Experience the transformative benefits of our multi micronutrients formula, including improved nutrient absorption, enhanced enzyme activity, and increased plant health. Choose our multi micronutrients fertilizer for healthier plants and superior crop performance.',
             price: 300,
             advantages: [
@@ -140,7 +180,8 @@ const Products = () => {
         {
             id: 8,
             imageUrl: p1,
-            title: 'Multi Micronutrients | 20 Litre',
+            title: 'Samarqand',
+            size: '20 Litre',
             details: 'Unlock the power of multi micronutrients for your plants with our premium fertilizer. This unique blend contains essential micronutrients including 6% zinc, 2% iron, 1% manganese, and 1% copper. Experience the transformative benefits of our multi micronutrients formula, including improved nutrient absorption, enhanced enzyme activity, and increased plant health. Choose our multi micronutrients fertilizer for healthier plants and superior crop performance.',
             price: 2750,
             advantages: [
@@ -160,7 +201,8 @@ const Products = () => {
         {
             id: 9,
             imageUrl: p1,
-            title: 'Liquid Potash 30% | 10 Litre ',
+            title: 'Chinar 30%',
+            size: '10 Litre',
             details: 'Unlock the power of liquid potash for your plants with our high-quality fertilizer. This innovative blend contains 30% potash (potassium oxide), a crucial nutrient for promoting plant growth, fruit development, and overall plant health. Experience the transformative benefits of liquid potash, including improved root development, increased nutrient uptake, and enhanced crop yields. Choose our liquid potash fertilizer for healthier plants and superior crop performance.',
             price: 4500,
             advantages: [
@@ -181,17 +223,20 @@ const Products = () => {
         return (
             <div className="product-grid">
                 {data.map((card) => (
-
                     <div className="product-card" key={card.id} onClick={
                         () => {
                             navigate('/buy', { state: { card } })
                         }
                     }>
-                        <img src={card.imageUrl} p1t={card.title} className="product-card-image" />
+                        {/* <img src={card.imageUrl} alt={card.title} className="product-card-image" /> */}
+                        <div className="product-card-image" />
+
                         <div className="product-card-details">
                             <h2 className="product-card-title">{card.title}</h2>
                             <p className="product-card-description">{card.details}</p>
-                            <p className="product-card-description bold">Rs. {card.price}</p>
+                            <p className="product-card-description bold"> {card.size}
+                                <span className="product-card-description bold ml-1">Rs. {card.price}</span>
+                            </p>
 
                         </div>
                     </div>
@@ -199,7 +244,6 @@ const Products = () => {
             </div>
         )
     }
-
 
 
     return (
@@ -217,27 +261,23 @@ const Products = () => {
                     <img src={wwebanner} alt="wwebanner" className="wwe-top-img" />
                 </div>
             </div>
-            <div className="product-mid-container">
+            <div className="product-mid-container">'
                 <div className="product-category-heading">
+                    Liquid Humic Acid
+                </div>
+                <Grid data={liquidHumicAcidProducts} />'
+                <div className="product-category-heading  mt-30">
+                    Liquid Sulfur
+                </div>
+                <Grid data={calciumPolysulfideProducts} />
+                <div className="product-category-heading mt-30">
+                    Liquid Potash
+                </div>
+                <Grid data={liquidPotashProducts} />
+                <div className="product-category-heading  mt-30">
                     Liquid Zinc
                 </div>
                 <Grid data={liquidZincProducts} />
-                <div className="product-category-heading mt-30">
-                    Liquid Humic Acid
-                </div>
-                <Grid data={liquidHumicAcidProducts} />
-                <div className="product-category-heading mt-30">
-                    Ammonium Thiosulfate
-                </div>
-                <Grid data={ammoniumThiosulfateProducts} />
-                <div className="product-category-heading mt-30">
-                    Potassium Thiosulfate
-                </div>
-                <Grid data={potassiumThiosulfateProducts} />
-                <div className="product-category-heading mt-30">
-                    Calcium Polysulfide
-                </div>
-                <Grid data={calciumPolysulfideProducts} />
                 <div className="product-category-heading mt-30">
                     Liquid Boron
                 </div>
@@ -246,10 +286,18 @@ const Products = () => {
                     Multi Micronutrients
                 </div>
                 <Grid data={multiMicronutrientsProducts} />
+
+
                 <div className="product-category-heading mt-30">
-                    Liquid Potash
+                    Ammonium Thiosulfate
                 </div>
-                <Grid data={liquidPotashProducts} />
+                <Grid data={ammoniumThiosulfateProducts} />
+                <div className="product-category-heading mt-30">
+                    Potassium Thiosulfate
+                </div>
+                <Grid data={potassiumThiosulfateProducts} />
+
+
 
 
             </div>

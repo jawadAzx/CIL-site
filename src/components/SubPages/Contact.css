@@ -74,9 +74,28 @@
     /* Changed from left to center */
 }
 
+.contact-bold-1-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #424242;
+    text-align: center;
+    /* Changed from left to center */
+}
+
+.contact-bold-subtext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #424242;
+    text-align: center;
+    /* Changed from left to center */
+    margin-left: 10px;
+}
+
 .contact-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     color: #424242;
     text-align: center;
