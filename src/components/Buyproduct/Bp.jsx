@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Bp.css';
-import buy from "../../assets/buy.jpg";
+import buy from "../../assets/sc.jpg";
 import ps1 from "../../assets/productsample1.png";
 import ps2 from "../../assets/productsample2.png";
 import Modal from './Modal'; // Import your modal component here

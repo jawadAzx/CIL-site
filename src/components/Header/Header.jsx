@@ -57,6 +57,12 @@ const Header = () => {
                 className="header-logo"
                 src={logo}
             />
+            <span className='banner-text'>
+                Chemicides International
+                <span className='banner-subtext'>
+                    (Pvt) Ltd.
+                </span>
+            </span>
             <Ham
                 className="header-ham"
                 onClick={() => {
