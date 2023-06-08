@@ -24,7 +24,11 @@
     color: #424242;
     position: relative;
     margin-left: 20px;
-    
+
+}
+
+.banner-text-sm {
+    display: none;
 }
 
 .banner-subtext {
@@ -58,5 +62,14 @@
     .banner-maincontainer {
         display: none;
         height: 80px;
+    }
+
+    .banner-text-sm {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: #424242;
+        position: relative;
+        margin-left: 20px;
     }
 }

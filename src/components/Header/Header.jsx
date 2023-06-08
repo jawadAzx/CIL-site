@@ -57,7 +57,7 @@ const Header = () => {
                 className="header-logo"
                 src={logo}
             />
-            <span className='banner-text'>
+            <span className='banner-text-sm'>
                 Chemicides International
                 <span className='banner-subtext'>
                     (Pvt) Ltd.
