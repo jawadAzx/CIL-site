@@ -6,11 +6,17 @@ const Banner = () => {
     const navigate = useNavigate()
     return (
         <div className='banner-maincontainer'>
-            <div className='banner-container' >
+            <div className='banner-subcontainer' >
                 <img className='logo' onClick={() => navigate('/')} src={logo} />
+                <span className='banner-text'>
+                    Chemicides International
+                    <span className='banner-subtext'>
+                        (Pvt) Ltd.
+                    </span>
+                </span>
             </div>
             <div className='line'></div>
-        </div>
+        </div >
     );
 }
 

@@ -14,8 +14,28 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.banner-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #424242;
+    position: relative;
+    margin-left: 20px;
+    
+}
+
+.banner-subtext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #424242;
+    position: relative;
+    margin-left: 5px;
+    font-style: italic;
+
 }
 
 .logo {

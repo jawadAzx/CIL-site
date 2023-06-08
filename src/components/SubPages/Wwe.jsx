@@ -24,7 +24,7 @@ const Wwe = () => {
                     Chemicides International Private Limited is a leading chemical company that provides high-quality agricultural products for improved crop yields and enhanced agrarian practices. Our commitment to excellence and innovation has become a trusted name in the industry.
                     Our extensive product range includes cutting-edge solutions tailored to meet the specific needs of farmers and cultivators. From optimizing crop nutrition to promoting growth and productivity, our innovative formulations deliver outstanding results.
                     Backed by a team of experienced professionals and state-of-the-art manufacturing facilities, we ensure consistent quality and superior performance in all our products. At Chemicides International, we prioritize customer satisfaction and sustainable agriculture practices.
-                    Choose Chemicides International Private Limited as your reliable partner for agricultural excellence. Discover our range of practical solutions to support the global agricultural community and contribute to a greener, healthier future. Experience the difference with Chemicides International.
+                    Choose Chemicides International Private Limited as your reliable partner for agricultural superiority. Discover our range of practical solutions to support the global agricultural community and contribute to a greener, healthier future. Experience the difference with Chemicides International.
                 </div>
                 <img src={wweimg} alt="wweimg" className="wwe-mid-img" />
             </div>
