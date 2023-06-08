@@ -114,7 +114,7 @@ const Bp = () => {
                     <div className='buy-del-container buy-mt-1-sm'>
                         <BsRocketTakeoff style={{ fontSize: '2rem', color: "#DA974E" }} />
                         <div className='buy-del-features'>
-                            Fast Delivery
+                            Fast shipping
                         </div>
                     </div>
                     <div className='buy-del-container buy-mt-3 buy-mt-1-sm'>
