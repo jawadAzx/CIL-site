@@ -144,7 +144,8 @@ const Products = () => {
         {
             id: 6,
             imageUrl: p1,
-            title: 'Liquid Boron 5%',
+            title: 'Bukhara 5%',
+            size: '10 Litre',
             details: 'Unlock the power of liquid boron for your plants with our high-quality fertilizer. This innovative blend contains 5% boron, an essential micronutrient for plant growth and development. Experience the transformative benefits of liquid boron, including improved flower and fruit set, enhanced pollen germination, and increased crop yields. Choose our liquid boron fertilizer for healthier plants and superior crop performance.',
             price: 0, // Please provide the actual price for the product
             advantages: [

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Bp.css';
-import buy from "../../assets/sc.jpg";
+import buy from "../../assets/home.jpg";
 import ps1 from "../../assets/productsample1.png";
 import ps2 from "../../assets/productsample2.png";
 import Modal from './Modal'; // Import your modal component here
@@ -163,6 +163,9 @@ const Bp = () => {
                 <span className='buy-prod-details-container'>
                     <div className='buy-prod-price' >
                         Rs. {state.card.price}
+                    </div>
+                    <div className='buy-prod-price'>
+                        {state.card.size}
                     </div>
                     <div className='buy-prod-desc'>
                         {state.card.details}

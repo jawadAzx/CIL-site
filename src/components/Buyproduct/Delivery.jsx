@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Delivery.css';
-import buy from '../../assets/sc.jpg';
+import buy from '../../assets/potatoes.jpg';
 import emailjs from '@emailjs/browser';
 import { DotLoader } from 'react-spinners';
 const Delivery = () => {
@@ -54,7 +54,7 @@ const Delivery = () => {
         };
 
         return (
-            <div>
+            <div className='ml-2'>
                 <h2>Place an Online Order</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-row">

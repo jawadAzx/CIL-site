@@ -30,7 +30,7 @@ const Products = () => {
             title: 'Agro Gold | Zn 21%',
             size: '25kg pack',
             details: 'Zinc sulfate product with a higher concentration of 33%. It serves a similar purpose as Agro gold, but with a higher percentage of zinc sulfate.',
-            price: 0,
+            price: 8000,
             advantages: [
                 'Promotes vigorous growth of lush and healthy green leaves.',
                 'Prevents withering and patchy growth, leading to the development of normal-sized leaves.',
@@ -65,7 +65,7 @@ const Products = () => {
             title: 'Commander | Zn 33%',
             size: '25kg pack',
             details: 'Zinc sulfate product with a higher concentration of 33%. It serves a similar purpose as Agro gold, but with a higher percentage of zinc sulfate.',
-            price: 0,
+            price: 12500,
             advantages: [
                 'Promotes vigorous growth of lush and healthy green leaves.',
                 'Prevents withering and patchy growth, leading to the development of normal-sized leaves.',
@@ -116,7 +116,7 @@ const Products = () => {
             title: 'Micro Gold Plus',
             size: '4kg pack',
             details: 'Introducing our breakthrough multi-micronutrient fertilizer, enriched with zinc (Zn) and iron (Fe). This powerful formula unlocks plant potential by enhancing growth, improving nutrient uptake, and fortifying against deficiencies and diseases. Experience exceptional results and bountiful yields with our innovative fertilizer.',
-            price: 925,
+            price: 975,
             advantages: [
                 "Enhanced plant growth and development",
                 "Increased chlorophyll production for improved photosynthesis",
@@ -133,7 +133,7 @@ const Products = () => {
             title: 'Micro Gold Plus',
             size: '25kg pack',
             details: 'Introducing our breakthrough multi-micronutrient fertilizer, enriched with zinc (Zn) and iron (Fe). This powerful formula unlocks plant potential by enhancing growth, improving nutrient uptake, and fortifying against deficiencies and diseases. Experience exceptional results and bountiful yields with our innovative fertilizer.',
-            price: 0,
+            price: 5500,
             advantages: [
                 "Enhanced plant growth and development",
                 "Increased chlorophyll production for improved photosynthesis",
@@ -333,7 +333,7 @@ const Products = () => {
                             navigate('/buy', { state: { card } })
                         }
                     }>
-                        <div   className="product-card-image" />
+                        <div className="product-card-image" />
                         <div className="product-card-details">
                             <h2 className="product-card-title">{card.title}</h2>
                             <p className="product-card-description">{card.details}</p>

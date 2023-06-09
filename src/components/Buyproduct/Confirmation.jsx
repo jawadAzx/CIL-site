@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import './Confirmation.css'
-import buy from '../../assets/buy.jpg';
+import buy from '../../assets/tom.jpg';
 
 const Confirmation = () => {
     const navigate = useNavigate()

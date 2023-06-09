@@ -10,9 +10,9 @@ const Dashboard = () => {
                 <div className='dashboard-heading'>
                     Cultivating success with every sprinkle.
                 </div>
-                {/* <div className='dashboard-subheading mt-1'>
-                    35 years of excellence
-                </div> */}
+                <div className='dashboard-subheading mt-1'>
+                    تھوڑا سا استعمال، کر دے مالا مال
+                </div>
                 <button
                     className='transparent-button'
                     onClick={() => navigate('/wwe')}

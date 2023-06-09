@@ -28,11 +28,14 @@
 
 }
 
+@import url("https://fonts.googleapis.com/css?family=Noto+Nastaliq+Urdu");
+
+
 .dashboard-subheading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-size: 22px;
     font-weight: 400;
-    color: #424242;
+    color: red;
     margin-left: 120px;
     text-align: left;
 }
@@ -40,7 +43,7 @@
 .transparent-button {
     font-family: 'Roboto', sans-serif;
     background-color: transparent;
-    border: 2px solid red;
+    border: 2px solid #424242;
     color: #424242;
     padding: 10px 20px;
     cursor: pointer;
@@ -50,7 +53,8 @@
 }
 
 .transparent-button:hover {
-    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    background-color: #424242;
     color: #ffffff;
     /* Optional: Change text color on hover */
 }
@@ -110,11 +114,11 @@
     }
 
     .dashboard-subheading {
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
+        font-family: "Noto Nastaliq Urdu", serif;
+        font-size: 22px;
         font-weight: 400;
-        color: #424242;
-        text-align: center;
+        color: red;
         margin-left: 0;
+        text-align: center;
     }
 }
