@@ -8,7 +8,7 @@ const Dashboard = () => {
         <div className='dashboard-container'>
             <div className='dashboard-left'>
                 <div className='dashboard-heading'>
-                    Cultivating success with every sprinkle.
+                    Cultivating success with every broadcast.
                 </div>
                 <div className='dashboard-subheading mt-1'>
                     تھوڑا سا استعمال، کر دے مالا مال

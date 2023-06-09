@@ -23,8 +23,11 @@ const Header = () => {
         else if (location.pathname === '/liquid') {
             setActive(3);
         }
-        else if (location.pathname === '/contact') {
+        else if (location.pathname === '/gallery') {
             setActive(4);
+        }
+        else if (location.pathname === '/contact') {
+            setActive(5);
         }
     }, [location.pathname]);
 
@@ -100,10 +103,17 @@ const Header = () => {
                 </div>
                 <div
                     className='header-text'
+                    onClick={() => handleNavigation(4, '/gallery')}
+                >
+                    Gallery
+                    <div className={active === 4 ? 'line-red-active' : 'line-red'}></div>
+                </div>
+                <div
+                    className='header-text'
                     onClick={() => handleNavigation(4, '/contact')}
                 >
                     Contact us
-                    <div className={active === 4 ? 'line-red-active' : 'line-red'}></div>
+                    <div className={active === 5 ? 'line-red-active' : 'line-red'}></div>
                 </div>
             </div>
             <div className='line'></div>

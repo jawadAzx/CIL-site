@@ -378,7 +378,6 @@ const Products = () => {
                 <div className='product-category-heading mt-30'>
                     Potassium Sulphate
                 </div>
-
                 <Grid data={potassiumSulphateProducts} />
                 <div className='product-category-heading mt-30'>
                     Humic Acid
@@ -392,6 +391,9 @@ const Products = () => {
                     Magnesium Sulfate
                 </div>
                 <Grid data={magnesiumSulfateProducts} />
+
+
+
                 <div className='product-category-heading mt-30'>
                     Ammonium Sulphate
                 </div>
@@ -400,9 +402,6 @@ const Products = () => {
                     Ammonium Phosphate
                 </div>
                 <Grid data={ammoniumPhosphateProducts} />
-
-
-
                 <div className='product-category-heading mt-30'>
                     Potassium Nitrate
                 </div>

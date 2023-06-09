@@ -10,6 +10,7 @@ import Bp from "./components/Buyproduct/Bp";
 import Delivery from "./components/Buyproduct/Delivery";
 import Confirmation from "./components/Buyproduct/Confirmation";
 import Menu from "./components/Header/Menu";
+import Gallery from "./components/SubPages/Gallery";
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/confirmation" element={<Confirmation />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </Router>
 
