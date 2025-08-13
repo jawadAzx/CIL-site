@@ -99,12 +99,11 @@
 }
 
 .product-card-image {
-    /* width: 100%;
-    height: auto; */
-    width: 360px;
-    height: 300px;
+    width: 100%;
+    aspect-ratio: 1 / 1; /* keeps it square */
     background-color: #333333;
-
+    background-size: cover;
+    background-position: center;
 }
 
 .product-card-details {

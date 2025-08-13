@@ -3,6 +3,9 @@ import "./Products.css"
 import wwebanner from "../../assets/productpage.jpg"
 import p1 from "../../assets/p1.jpg"
 import { useNavigate } from 'react-router-dom'
+import agrogold from '../../assets/agrogold.jpeg'
+import commander from '../../assets/commander.jpeg'
+import microgold from '../../assets/microgold.jpeg'
 const Products = () => {
     const navigate = useNavigate()
 
@@ -22,43 +25,9 @@ const Products = () => {
                 'Supports the growth of crop shoots and accelerates the formation of grains and fruits.',
                 'Best for crops like rice, wheat, maize, sugarcane, cotton, and vegetables.'
             ],
-            category: 'Zinc Sulphate'
+            category: 'Zinc Sulphate',
+            imagePath: agrogold
         },
-        {
-            id: 14,
-            imageUrl: p1,
-            title: 'Agro Gold | Zn 21%',
-            size: '25kg pack',
-            details: 'Zinc sulfate product with a higher concentration of 33%. It serves a similar purpose as Agro gold, but with a higher percentage of zinc sulfate.',
-            price: 8000,
-            advantages: [
-                'Promotes vigorous growth of lush and healthy green leaves.',
-                'Prevents withering and patchy growth, leading to the development of normal-sized leaves.',
-                'Enhances the plants resistance to diseases and boosts overall growth rate.',
-                'Proven to significantly increase crop yield and reduce the occurrence of chlorosis, flower, and fruit drop.',
-                'Supports the growth of crop shoots and accelerates the formation of grains and fruits.',
-                'Best for crops like rice, wheat, maize, sugarcane, cotton, and vegetables.'
-            ],
-            category: 'Zinc Sulphate'
-        },
-        {
-            id: 2,
-            imageUrl: p1,
-            title: 'Commander | Zn 33%',
-            size: '3kg pack',
-            details: 'Zinc sulfate product with a higher concentration of 33%. It serves a similar purpose as Agro gold, but with a higher percentage of zinc sulfate.',
-            price: 1525,
-            advantages: [
-                'Promotes vigorous growth of lush and healthy green leaves.',
-                'Prevents withering and patchy growth, leading to the development of normal-sized leaves.',
-                'Enhances the plants resistance to diseases and boosts overall growth rate.',
-                'Proven to significantly increase crop yield and reduce the occurrence of chlorosis, flower, and fruit drop.',
-                'Supports the growth of crop shoots and accelerates the formation of grains and fruits.',
-                'Best for crops like rice, wheat, maize, sugarcane, cotton, and vegetables.'
-            ],
-            category: 'Zinc Sulphate'
-        },
-
         {
             id: 15,
             imageUrl: p1,
@@ -74,7 +43,8 @@ const Products = () => {
                 'Supports the growth of crop shoots and accelerates the formation of grains and fruits.',
                 'Best for crops like rice, wheat, maize, sugarcane, cotton, and vegetables.'
             ],
-            category: 'Zinc Sulphate'
+            category: 'Zinc Sulphate',
+            imagePath:commander
         }
     ];
     const copperSulfateProducts = [
@@ -111,23 +81,6 @@ const Products = () => {
 
     const multiMicronutrientsProducts = [
         {
-            id: 4,
-            imageUrl: p1,
-            title: 'Micro Gold Plus',
-            size: '4kg pack',
-            details: 'Introducing our breakthrough multi-micronutrient fertilizer, enriched with zinc (Zn) and iron (Fe). This powerful formula unlocks plant potential by enhancing growth, improving nutrient uptake, and fortifying against deficiencies and diseases. Experience exceptional results and bountiful yields with our innovative fertilizer.',
-            price: 975,
-            advantages: [
-                "Enhanced plant growth and development",
-                "Increased chlorophyll production for improved photosynthesis",
-                "Improved nutrient uptake and transport within plants",
-                "Prevention of nutrient deficiencies",
-                "Enhanced disease resistance and stress tolerance",
-                "Best for Cereal crops, Fruit trees, Leafy vegetables, Legumes ,and Ornamental plants such as flowers, shrubs"
-            ],
-            category: 'Multi Micronutrients'
-        },
-        {
             id: 16,
             imageUrl: p1,
             title: 'Micro Gold Plus',
@@ -142,7 +95,8 @@ const Products = () => {
                 "Enhanced disease resistance and stress tolerance",
                 "Best for Cereal crops, Fruit trees, Leafy vegetables, Legumes ,and Ornamental plants such as flowers, shrubs"
             ],
-            category: 'Multi Micronutrients'
+            category: 'Multi Micronutrients',
+            imagePath:microgold
 
         }
     ];
@@ -328,12 +282,15 @@ const Products = () => {
         return (
             <div className="product-grid">
                 {data.map((card) => (
-                    <div className="product-card" key={card.id} onClick={
-                        () => {
-                            navigate('/buy', { state: { card } })
-                        }
-                    }>
-                        <div className="product-card-image" />
+                    <div className="product-card" key={card.id} >
+                    <div 
+                        className="product-card-image"
+                        style={{
+                            backgroundImage: `url(${card.imagePath})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center'
+                        }}
+                    />
                         <div className="product-card-details">
                             <h2 className="product-card-title">{card.title}</h2>
                             <p className="product-card-description">{card.details}</p>
@@ -371,7 +328,7 @@ const Products = () => {
                     Multi Micronutrients
                 </div>
                 <Grid data={multiMicronutrientsProducts} />
-                <div className='product-category-heading mt-30'>
+                {/* <div className='product-category-heading mt-30'>
                     Copper Sulphate
                 </div>
                 <Grid data={copperSulfateProducts} />
@@ -390,11 +347,11 @@ const Products = () => {
                 <div className='product-category-heading mt-30'>
                     Magnesium Sulfate
                 </div>
-                <Grid data={magnesiumSulfateProducts} />
+                <Grid data={magnesiumSulfateProducts} /> */}
 
 
 
-                <div className='product-category-heading mt-30'>
+                {/* <div className='product-category-heading mt-30'>
                     Ammonium Sulphate
                 </div>
                 <Grid data={ammoniumSulphateProducts} />
@@ -409,7 +366,7 @@ const Products = () => {
                 <div className='product-category-heading mt-30'>
                     Urea Phosphate
                 </div>
-                <Grid data={ureaPhosphateProducts} />
+                <Grid data={ureaPhosphateProducts} /> */}
 
             </div>
         </div>

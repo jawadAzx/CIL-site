@@ -20,12 +20,12 @@ const Header = () => {
         } else if (location.pathname === '/granular') {
             setActive(2);
         }
-        else if (location.pathname === '/liquid') {
-            setActive(3);
-        }
-        else if (location.pathname === '/gallery') {
-            setActive(4);
-        }
+        // else if (location.pathname === '/liquid') {
+        //     setActive(3);
+        // }
+        // else if (location.pathname === '/gallery') {
+        //     setActive(4);
+        // }
         else if (location.pathname === '/contact') {
             setActive(5);
         }
@@ -59,6 +59,7 @@ const Header = () => {
                 }}
                 className="header-logo"
                 src={logo}
+                alt='logo'
             />
             <span className='banner-text-sm'>
                 Chemicides International
@@ -94,7 +95,7 @@ const Header = () => {
                     Granular Fertilizers
                     <div className={active === 2 ? 'line-red-active' : 'line-red'}></div>
                 </div>
-                <div
+                {/* <div
                     className='header-text'
                     onClick={() => handleNavigation(3, '/liquid')}
                 >
@@ -107,7 +108,7 @@ const Header = () => {
                 >
                     Gallery
                     <div className={active === 4 ? 'line-red-active' : 'line-red'}></div>
-                </div>
+                </div> */}
                 <div
                     className='header-text'
                     onClick={() => handleNavigation(4, '/contact')}

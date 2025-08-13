@@ -22,12 +22,12 @@ function App() {
           <Route path="/wwe" element={<Wwe />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/granular" element={<Products />} />
-          <Route path="/liquid" element={<LiquidProducts />} />
-          <Route path="/buy" element={<Bp />} />
-          <Route path="/delivery" element={<Delivery />} />
-          <Route path="/confirmation" element={<Confirmation />} />
+          {/* <Route path="/liquid" element={<LiquidProducts />} /> */}
+          {/* <Route path="/buy" element={<Bp />} /> */}
+          {/* <Route path="/delivery" element={<Delivery />} /> */}
+          {/* <Route path="/confirmation" element={<Confirmation />} /> */}
           <Route path="/menu" element={<Menu />} />
-          <Route path="/gallery" element={<Gallery />} />
+          {/* <Route path="/gallery" element={<Gallery />} /> */}
         </Routes>
       </Router>
 
