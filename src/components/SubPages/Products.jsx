@@ -6,13 +6,13 @@ import { useNavigate } from 'react-router-dom'
 import agrogold from '../../assets/agrogold.jpeg'
 import commander from '../../assets/commander.jpeg'
 import microgold from '../../assets/microgold.jpeg'
+import saffaron from '../../assets/saffaron.jpeg'
 const Products = () => {
     const navigate = useNavigate()
 
     const zincSulphateProducts = [
         {
             id: 1,
-            imageUrl: p1,
             title: 'Agro Gold | Zn 21%',
             size: '4kg pack',
             details: 'A product containing zinc sulfate with zinc concentration of 21%. It is used as a fertilizer additive to provide plants with zinc, which is an essential micronutrient for their growth and development.',
@@ -28,29 +28,47 @@ const Products = () => {
             category: 'Zinc Sulphate',
             imagePath: agrogold
         },
-        {
-            id: 15,
-            imageUrl: p1,
-            title: 'Commander | Zn 33%',
-            size: '25kg pack',
-            details: 'Zinc sulfate product with a higher concentration of 33%. It serves a similar purpose as Agro gold, but with a higher percentage of zinc sulfate.',
-            price: 12500,
-            advantages: [
-                'Promotes vigorous growth of lush and healthy green leaves.',
-                'Prevents withering and patchy growth, leading to the development of normal-sized leaves.',
-                'Enhances the plants resistance to diseases and boosts overall growth rate.',
-                'Proven to significantly increase crop yield and reduce the occurrence of chlorosis, flower, and fruit drop.',
-                'Supports the growth of crop shoots and accelerates the formation of grains and fruits.',
-                'Best for crops like rice, wheat, maize, sugarcane, cotton, and vegetables.'
-            ],
-            category: 'Zinc Sulphate',
-            imagePath:commander
-        }
+{
+    id: 99,
+    title: 'Saffaron | Zn 27% Pentahydrate',
+    size: '25kg pack',
+    details: 'Zinc sulfate pentahydrate fertilizer with a zinc concentration of 27%, specially formulated to correct zinc deficiencies and enhance plant vigor. Ideal for maintaining healthy growth and improving crop productivity in zinc-deficient soils.',
+    price: 11000,
+    advantages: [
+        'Improves chlorophyll production, ensuring greener and healthier leaves.',
+        'Prevents stunted growth and leaf deformities caused by zinc deficiency.',
+        'Enhances flowering and fruit-setting, reducing premature drop.',
+        'Boosts resistance to stress conditions such as drought and disease.',
+        'Encourages uniform grain and fruit development for better market quality.',
+        'Suitable for rice, wheat, maize, sugarcane, cotton, and various vegetables.'
+    ],
+    category: 'Zinc Sulphate',
+    imagePath: saffaron
+},
+{
+    id: 15,
+    title: 'Commander | Zn 33%',
+    size: '25kg pack',
+    details: 'High-strength zinc sulfate fertilizer containing 33% zinc, designed for rapid correction of severe zinc deficiencies. Its concentrated formula ensures maximum impact with minimal application, supporting faster recovery and sustained plant health. Perfect for farmers aiming to boost crop yield, quality, and disease resistance.',
+    price: 12500,
+    advantages: [
+        'Promotes vigorous growth with deep green foliage.',
+        'Prevents withering, patchy growth, and leaf size reduction.',
+        'Strengthens plants against diseases while accelerating growth.',
+        'Significantly increases yield and reduces chlorosis, flower drop, and fruit drop.',
+        'Supports healthy shoot development and faster grain and fruit formation.',
+        'Highly effective for rice, wheat, maize, sugarcane, cotton, and vegetables.'
+    ],
+    category: 'Zinc Sulphate',
+    imagePath: commander
+},
+
+
     ];
     const copperSulfateProducts = [
         {
             id: 17,
-            imageUrl: p1,
+            
             title: 'Sapphire | Cu 25%',
             size: '2kg pack',
             details: 'Gardeners and commercial farmers often utilize copper sulphate as a fertilizer or fungicide to combat fungal infections and molds.',
@@ -64,7 +82,7 @@ const Products = () => {
         },
         {
             id: 3,
-            imageUrl: p1,
+            
             title: 'Sapphire | Cu 25%',
             size: '25kg pack',
             details: 'Gardeners and commercial farmers often utilize copper sulphate as a fertilizer or fungicide to combat fungal infections and molds.',
@@ -82,7 +100,7 @@ const Products = () => {
     const multiMicronutrientsProducts = [
         {
             id: 16,
-            imageUrl: p1,
+            
             title: 'Micro Gold Plus',
             size: '25kg pack',
             details: 'Introducing our breakthrough multi-micronutrient fertilizer, enriched with zinc (Zn) and iron (Fe). This powerful formula unlocks plant potential by enhancing growth, improving nutrient uptake, and fortifying against deficiencies and diseases. Experience exceptional results and bountiful yields with our innovative fertilizer.',
@@ -103,7 +121,7 @@ const Products = () => {
     const ammoniumSulphateProducts = [
         {
             id: 5,
-            imageUrl: p1,
+            
             title: 'Ammonium sulphate',
             size: '50kg pack',
             details: 'Our revolutionary fertilizer, packed with 21% nitrogen (N) and an impressive 24% sulfur (S) from ammonium sulfate. This powerful blend promotes vigorous plant growth, boosts nutrient absorption, and ensures optimal performance. Unlock the potential of your plants with our transformative formula for thriving growth and abundant yields.',
@@ -122,7 +140,7 @@ const Products = () => {
     const ammoniumPhosphateProducts = [
         {
             id: 6,
-            imageUrl: p1,
+            
             title: 'Ammonium phosphate',
             size: '25kg pack',
             details: 'Our innovative fertilizer contains 11% nitrogen (N) and an impressive 46% phosphorus pentoxide (P2O5) derived from ammonium phosphate. This powerful formula promotes optimal plant growth, supports root development, and enhances nutrient uptake. Unlock the full potential of your crops with our transformative blend for abundant yields and improved quality.',
@@ -141,7 +159,7 @@ const Products = () => {
     const potassiumSulphateProducts = [
         {
             id: 7,
-            imageUrl: p1,
+            
             title: 'Potassium sulfate',
             size: '25kg pack',
             details: 'Experience the power of our premium fertilizer enriched with an impressive 50% potassium oxide (K2O) sourced from potassium sulfate. This exceptional blend promotes robust plant growth, stimulates flowering and fruiting, and improves plant resilience to environmental stress. Unlock the full potential of your crops with our high-quality formula, ensuring abundant yields and superior crop quality.',
@@ -161,7 +179,7 @@ const Products = () => {
     const humicAcidProducts = [
         {
             id: 8,
-            imageUrl: p1,
+            
             title: 'Marco Polo',
             size: '8kg pack',
             details: 'Unlock the potential of your plants with our premium fertilizer enriched with 40% humic acid and 7% potassium. This exceptional blend promotes enhanced nutrient absorption, improves soil structure, and boosts plant resilience. Experience the transformative power of humic acid for healthier plants, increased yields, and improved overall plant performance.',
@@ -181,7 +199,7 @@ const Products = () => {
     const npkFertilizerProducts = [
         {
             id: 9,
-            imageUrl: p1,
+            
             title: 'NPK 10:10:10',
             size: '25kg pack',
             details: 'Unlock the potential of your plants with our balanced NPK fertilizer featuring a balanced ratio of 10:10:10. This versatile blend provides essential nitrogen, phosphorus, and potassium for optimal plant nutrition, resulting in balanced growth, improved root development, and overall plant health. Experience the transformative power of our balanced NPK formula, ensuring healthy growth and high-quality yields.',
@@ -198,7 +216,7 @@ const Products = () => {
         },
         {
             id: 10,
-            imageUrl: p1,
+            
             title: 'NPK 20:20:20',
             size: '25kg pack',
             details: 'Experience the power of our high NPK fertilizer with a balanced ratio of 20:20:20. This potent blend provides a strong nutrient foundation for optimal plant growth, improved flowering, and increased yield potential. Unlock the true potential of your crops with our high NPK formula, ensuring robust growth, abundant blooms, and superior crop quality.',
@@ -218,7 +236,7 @@ const Products = () => {
     const potassiumNitrateProducts = [
         {
             id: 11,
-            imageUrl: p1,
+            
             title: 'Potassium Nitrate',
             size: '25kg pack',
             details: 'Unlock the potential of your plants with our premium potassium nitrate fertilizer. This powerful blend with a ratio of 13:0:44 provides essential potassium and nitrogen for vigorous plant growth, improved flowering, and enhanced fruit development. Experience the transformative power of potassium nitrate for healthier plants, increased yields, and superior crop quality.',
@@ -238,7 +256,7 @@ const Products = () => {
     const ureaPhosphateProducts = [
         {
             id: 12,
-            imageUrl: p1,
+            
             title: 'Urea Phosphate',
             size: '25kg pack',
             details: 'Experience the power of urea phosphate, a high-quality fertilizer enriched with a ratio of 17:44:0. This potent blend provides essential nitrogen and phosphorus for optimal plant growth, root development, and overall plant health. Unlock the full potential of your crops with our urea phosphate formula, ensuring robust growth, abundant yields, and improved crop quality.',
@@ -259,7 +277,7 @@ const Products = () => {
     const magnesiumSulfateProducts = [
         {
             id: 13,
-            imageUrl: p1,
+            
             title: 'Magnesium Sulfate',
             size: '50kg pack',
             details: 'Unlock the power of magnesium sulfate for your plants with our high-quality fertilizer. This innovative blend contains 9% magnesium and 13% sulfur, two crucial nutrients for promoting plant growth and development. Experience the transformative benefits of magnesium sulfate, including improved nutrient uptake, enhanced chlorophyll production, and increased crop yields. Choose our magnesium sulfate fertilizer for healthier plants and superior crop performance.',
