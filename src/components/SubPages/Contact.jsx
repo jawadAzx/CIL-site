@@ -39,9 +39,9 @@ const Contact = () => {
                     <div className='contact-bold-text'>
                         Email
                     </div>
-                    <div className='contact-text'>
-                        chemicides@gmail.com
-                    </div>
+       <div className="contact-text">
+  <a href="mailto:contact@chemicides.com">contact@chemicides.com</a>
+</div>
                 </div>
             </div>
         </div>
