@@ -14,9 +14,9 @@ const Products = () => {
         {
             id: 1,
             title: 'Agro Gold | Zn 21%',
-            size: '4kg pack',
+            size: '4 kg | 25 kg',
             details: 'A product containing zinc sulfate with zinc concentration of 21%. It is used as a fertilizer additive to provide plants with zinc, which is an essential micronutrient for their growth and development.',
-            price: 1325,
+            // price: 1325,
             advantages: [
                 'Promotes vigorous growth of lush and healthy green leaves.',
                 'Prevents withering and patchy growth, leading to the development of normal-sized leaves.',
@@ -30,10 +30,11 @@ const Products = () => {
         },
 {
     id: 99,
-    title: 'Saffaron | Zn 27% Pentahydrate',
-    size: '25kg pack',
+    title: 'Saffaron | Zn 27%',
+    subTitle:'Pentahydrate',
+    size: '3 kg | 25 kg',
     details: 'Zinc sulfate pentahydrate fertilizer with a zinc concentration of 27%, specially formulated to correct zinc deficiencies and enhance plant vigor. Ideal for maintaining healthy growth and improving crop productivity in zinc-deficient soils.',
-    price: 11000,
+    // price: 11000,
     advantages: [
         'Improves chlorophyll production, ensuring greener and healthier leaves.',
         'Prevents stunted growth and leaf deformities caused by zinc deficiency.',
@@ -48,9 +49,9 @@ const Products = () => {
 {
     id: 15,
     title: 'Commander | Zn 33%',
-    size: '25kg pack',
+    size: '3 kg | 25 kg',
     details: 'High-strength zinc sulfate fertilizer containing 33% zinc, designed for rapid correction of severe zinc deficiencies. Its concentrated formula ensures maximum impact with minimal application, supporting faster recovery and sustained plant health. Perfect for farmers aiming to boost crop yield, quality, and disease resistance.',
-    price: 12500,
+    // price: 12500,
     advantages: [
         'Promotes vigorous growth with deep green foliage.',
         'Prevents withering, patchy growth, and leaf size reduction.',
@@ -102,7 +103,7 @@ const Products = () => {
             id: 16,
             
             title: 'Micro Gold Plus',
-            size: '25kg pack',
+            size: '4 kg | 25 kg',
             details: 'Introducing our breakthrough multi-micronutrient fertilizer, enriched with zinc (Zn) and iron (Fe). This powerful formula unlocks plant potential by enhancing growth, improving nutrient uptake, and fortifying against deficiencies and diseases. Experience exceptional results and bountiful yields with our innovative fertilizer.',
             price: 5500,
             advantages: [
@@ -310,10 +311,12 @@ const Products = () => {
                         }}
                     />
                         <div className="product-card-details">
-                            <h2 className="product-card-title">{card.title}</h2>
+                            <h2 className="product-card-title">{card.title}
+                                <span className="product-card-description bold">{card.subTitle}</span>
+                            </h2>
                             <p className="product-card-description">{card.details}</p>
                             <p className="product-card-description bold"> {card.size}
-                                <span className="product-card-description bold ml-1">Rs. {card.price}</span>
+                                {/* <span className="product-card-description bold ml-1">Rs. {card.price}</span> */}
                             </p>
 
                         </div>

@@ -30,9 +30,9 @@ const Contact = () => {
                     <div className='contact-bold-text'>
                         Phone
                     </div>
-                    <div className='contact-text'>
-                        041-855 4406 / 8
-                    </div>
+           <div className="contact-text">
+  +92 41 855 440 6 – 9
+</div>
                 </div>
                 <div className='contact-details-container'>
 

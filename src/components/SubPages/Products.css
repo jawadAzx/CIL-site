@@ -115,6 +115,11 @@
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 2px;
 }
 
 .product-card-description {
