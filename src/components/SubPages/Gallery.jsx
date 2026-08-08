@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './Gallery.css';
-import wwebanner from '../../assets/productpage.jpg';
 import s1 from '../../assets/1s.jpg';
 import s2 from '../../assets/2s.png';
 import s3 from '../../assets/3s.jpg';
 import s4 from '../../assets/4s.jpg';
 import s5 from '../../assets/5s.jpg';
 import buy from '../../assets/buy.jpg';
-import { useNavigate } from 'react-router-dom';
 
 const Gallery = () => {
     const [currentSlide, setCurrentSlide] = useState(0);

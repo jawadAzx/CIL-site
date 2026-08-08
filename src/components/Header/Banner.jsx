@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div className='banner-maincontainer'>
             <div className='banner-subcontainer' >
-                <img className='logo' onClick={() => navigate('/')} src={logo} />
+                <img className='logo' onClick={() => navigate('/')} src={logo} alt='Chemicides International logo' />
                 <span className='banner-text'>
                     Chemicides International
                     <span className='banner-subtext'>

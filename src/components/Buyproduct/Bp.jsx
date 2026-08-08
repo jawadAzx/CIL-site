@@ -238,7 +238,7 @@ const Bp = () => {
             </div>
             {modalOpen && (
                 <Modal closeModal={closeModal}>
-                    <img src={activeImage === 0 ? ps1 : ps2} alt='Modal Image' />
+                    <img src={activeImage === 0 ? ps1 : ps2} alt='Product' />
                 </Modal>
             )}
         </div>

@@ -1,16 +1,16 @@
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import PackageHeader from "./components/Header/PackageHeader";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Wwe from "./components/SubPages/Wwe";
 import Contact from "./components/SubPages/Contact";
 import Products from "./components/SubPages/Products";
-import LiquidProducts from "./components/SubPages/LiquidProducts";
-import Bp from "./components/Buyproduct/Bp";
-import Delivery from "./components/Buyproduct/Delivery";
-import Confirmation from "./components/Buyproduct/Confirmation";
+// import LiquidProducts from "./components/SubPages/LiquidProducts";
+// import Bp from "./components/Buyproduct/Bp";
+// import Delivery from "./components/Buyproduct/Delivery";
+// import Confirmation from "./components/Buyproduct/Confirmation";
 import Menu from "./components/Header/Menu";
-import Gallery from "./components/SubPages/Gallery";
+// import Gallery from "./components/SubPages/Gallery";
 import Blogs from "./components/SubPages/Blogs";
 import BlogPost from "./components/SubPages/BlogPost";
 function App() {

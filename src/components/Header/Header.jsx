@@ -51,8 +51,8 @@ const Header = () => {
         setActive(index);
         navigate(path);
     };
-    const headerClassName = isHeaderFixed == 0 ? 'header-main-container' : 'header-main-container fixed';
-    const headerClassName1 = isHeaderFixed == 0 ? 'header-container' : 'header-container mt-17';
+    const headerClassName = !isHeaderFixed ? 'header-main-container' : 'header-main-container fixed';
+    const headerClassName1 = !isHeaderFixed ? 'header-container' : 'header-container mt-17';
     return (
         <div ref={headerRef} className={headerClassName}>
             <img

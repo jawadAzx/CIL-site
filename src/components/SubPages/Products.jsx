@@ -1,8 +1,6 @@
 import React from 'react'
 import "./Products.css"
 import wwebanner from "../../assets/productpage.jpg"
-import p1 from "../../assets/p1.jpg"
-import { useNavigate } from 'react-router-dom'
 import agrogold from '../../assets/agrogold.jpeg'
 import commander from '../../assets/commander.jpeg'
 import microgold from '../../assets/microgold.jpeg'
@@ -10,8 +8,6 @@ import saffaron from '../../assets/saffaron.jpeg'
 import usePageMeta from '../../hooks/usePageMeta'
 
 const Products = () => {
-    const navigate = useNavigate()
-
     usePageMeta({
         title: 'Granular Fertilizers',
         description: 'Granular zinc sulphate (21%, 27%, 33% Zn) and multi-micronutrient fertilizers from Chemicides International — for rice, wheat, cotton and vegetable crops in Pakistan.',
@@ -75,6 +71,7 @@ const Products = () => {
 
 
     ];
+    // eslint-disable-next-line no-unused-vars
     const copperSulfateProducts = [
         {
             id: 17,
@@ -128,6 +125,7 @@ const Products = () => {
 
         }
     ];
+    // eslint-disable-next-line no-unused-vars
     const ammoniumSulphateProducts = [
         {
             id: 5,
@@ -147,6 +145,7 @@ const Products = () => {
             category: 'Ammonium Sulphate'
         }
     ];
+    // eslint-disable-next-line no-unused-vars
     const ammoniumPhosphateProducts = [
         {
             id: 6,
@@ -166,6 +165,7 @@ const Products = () => {
             category: 'Ammonium Phosphate'
         }
     ];
+    // eslint-disable-next-line no-unused-vars
     const potassiumSulphateProducts = [
         {
             id: 7,
@@ -186,6 +186,7 @@ const Products = () => {
         }
     ];
 
+    // eslint-disable-next-line no-unused-vars
     const humicAcidProducts = [
         {
             id: 8,
@@ -206,6 +207,7 @@ const Products = () => {
         }
     ];
 
+    // eslint-disable-next-line no-unused-vars
     const npkFertilizerProducts = [
         {
             id: 9,
@@ -243,6 +245,7 @@ const Products = () => {
         }
     ];
 
+    // eslint-disable-next-line no-unused-vars
     const potassiumNitrateProducts = [
         {
             id: 11,
@@ -263,6 +266,7 @@ const Products = () => {
         }
     ];
 
+    // eslint-disable-next-line no-unused-vars
     const ureaPhosphateProducts = [
         {
             id: 12,
@@ -284,6 +288,7 @@ const Products = () => {
     ];
 
 
+    // eslint-disable-next-line no-unused-vars
     const magnesiumSulfateProducts = [
         {
             id: 13,
