@@ -13,6 +13,7 @@ const Menu = () => {
                 <Row title="About us" navigateTo={() => navigate('/wwe')} />
                 <Row title="Granular Fertilizers" navigateTo={() => navigate('/granular')} />
                 {/* <Row title="Liquid Fertilizers" navigateTo={() => navigate('/liquid')} /> */}
+                <Row title="Blog" navigateTo={() => navigate('/blogs')} />
                 <Row title="Contact Us" navigateTo={() => navigate('/contact')} />
             </div>
         </div>

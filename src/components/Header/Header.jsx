@@ -26,6 +26,9 @@ const Header = () => {
         // else if (location.pathname === '/gallery') {
         //     setActive(4);
         // }
+        else if (location.pathname.startsWith('/blogs')) {
+            setActive(4);
+        }
         else if (location.pathname === '/contact') {
             setActive(5);
         }
@@ -111,7 +114,14 @@ const Header = () => {
                 </div> */}
                 <div
                     className='header-text'
-                    onClick={() => handleNavigation(4, '/contact')}
+                    onClick={() => handleNavigation(4, '/blogs')}
+                >
+                    Blog
+                    <div className={active === 4 ? 'line-red-active' : 'line-red'}></div>
+                </div>
+                <div
+                    className='header-text'
+                    onClick={() => handleNavigation(5, '/contact')}
                 >
                     Contact us
                     <div className={active === 5 ? 'line-red-active' : 'line-red'}></div>

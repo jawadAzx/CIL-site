@@ -1,7 +1,16 @@
 import React from 'react'
 import "./Contact.css"
 import contact from "../../assets/contact.jpg"
+import usePageMeta from '../../hooks/usePageMeta'
+
 const Contact = () => {
+    usePageMeta({
+        title: 'Contact Us',
+        description: 'Contact Chemicides International (Pvt) Ltd in Faisalabad, Pakistan for zinc sulphate, humic acid and other fertilizer products.',
+        path: '/contact',
+        image: contact,
+    });
+
     return (
         <div className='contact-container'>
             <div className='contact-top-container'>

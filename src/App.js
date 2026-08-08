@@ -11,6 +11,8 @@ import Delivery from "./components/Buyproduct/Delivery";
 import Confirmation from "./components/Buyproduct/Confirmation";
 import Menu from "./components/Header/Menu";
 import Gallery from "./components/SubPages/Gallery";
+import Blogs from "./components/SubPages/Blogs";
+import BlogPost from "./components/SubPages/BlogPost";
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,8 @@ function App() {
           <Route path="/wwe" element={<Wwe />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/granular" element={<Products />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs/:slug" element={<BlogPost />} />
           {/* <Route path="/liquid" element={<LiquidProducts />} /> */}
           {/* <Route path="/buy" element={<Bp />} /> */}
           {/* <Route path="/delivery" element={<Delivery />} /> */}

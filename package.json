@@ -17,7 +17,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "node scripts/generate-seo-artifacts.js",
     "build": "react-scripts build",
+    "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,6 +39,42 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-snap": "^1.23.0"
+  },
+  "reactSnap": {
+    "skipThirdPartyRequests": true,
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
+    "include": [
+      "/",
+      "/wwe",
+      "/granular",
+      "/blogs",
+      "/contact",
+      "/blogs/zinc-sulphate-deficiency-guide",
+      "/blogs/choosing-the-right-fertilizer-for-your-soil",
+      "/blogs/multi-micronutrients-explained",
+      "/blogs/post-harvest-soil-care",
+      "/blogs/zinc-sulphate-33-percent-dosage-application-guide",
+      "/blogs/zinc-sulphate-21-vs-27-vs-33-percent",
+      "/blogs/hudda-disease-in-rice-zinc-deficiency",
+      "/blogs/chelated-zinc-edta-vs-zinc-sulphate",
+      "/blogs/chelated-zinc-5-percent-foliar-spray-dosage",
+      "/blogs/best-zinc-fertilizer-for-alkaline-soils",
+      "/blogs/liquid-zinc-foliar-spray-dose-per-acre",
+      "/blogs/liquid-vs-granular-zinc-fertilizer",
+      "/blogs/how-to-mix-apply-liquid-zinc-10-percent",
+      "/blogs/liquid-humic-acid-benefits-root-development",
+      "/blogs/humic-acid-potash-liquid-dosage-timing",
+      "/blogs/liquid-humic-acid-saline-alkaline-soils",
+      "/blogs/humic-acid-granular-40-percent-benefits-dosage",
+      "/blogs/granular-vs-liquid-humic-acid-guide",
+      "/blogs/humic-acid-soil-health-structure"
     ]
   }
 }

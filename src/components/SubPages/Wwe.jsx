@@ -2,7 +2,16 @@ import React from 'react'
 import "./Wwe.css"
 import wwebanner from "../../assets/wwebanner.jpg"
 import wweimg from "../../assets/wwemid2.jpg"
+import usePageMeta from '../../hooks/usePageMeta'
+
 const Wwe = () => {
+    usePageMeta({
+        title: 'About Us',
+        description: 'Chemicides International (Pvt) Ltd, Faisalabad — a manufacturer of zinc sulphate, humic acid and other granular and liquid fertilizers for farmers across Pakistan.',
+        path: '/wwe',
+        image: wwebanner,
+    });
+
     return (
         <div className='wwe-container'>
             {/* < div className="wwe-top-banner">

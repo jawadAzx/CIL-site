@@ -7,8 +7,17 @@ import agrogold from '../../assets/agrogold.jpeg'
 import commander from '../../assets/commander.jpeg'
 import microgold from '../../assets/microgold.jpeg'
 import saffaron from '../../assets/saffaron.jpeg'
+import usePageMeta from '../../hooks/usePageMeta'
+
 const Products = () => {
     const navigate = useNavigate()
+
+    usePageMeta({
+        title: 'Granular Fertilizers',
+        description: 'Granular zinc sulphate (21%, 27%, 33% Zn) and multi-micronutrient fertilizers from Chemicides International — for rice, wheat, cotton and vegetable crops in Pakistan.',
+        path: '/granular',
+        image: commander,
+    });
 
     const zincSulphateProducts = [
         {
