@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "prebuild": "node scripts/generate-seo-artifacts.js",
     "build": "react-scripts build",
-    "postbuild": "react-snap",
+    "postbuild": "react-snap || echo '[seo] react-snap prerendering failed (this build environment is likely missing Chrome shared libs, e.g. Vercel'\\''s remote build container) — shipping the regular client-rendered build instead. Prerendering works when built on a machine with a full Chrome/Chromium install (confirmed locally); see README for a prebuilt-deploy workflow.'",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
