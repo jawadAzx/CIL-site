@@ -20,7 +20,6 @@ import ricePlanting from "../assets/wwemid2.jpg";
 import agrogold from "../assets/agrogold.jpeg";
 import saffaron from "../assets/saffaron.jpeg";
 import cottonField from "../assets/3s.jpg";
-import liquidProductPhoto from "../assets/p1.jpg";
 
 const blogs = [
   {
@@ -416,7 +415,7 @@ const blogs = [
     title: "Liquid Boron 5% Fertilizer: Foliar Spray Guide for Cotton and Fruit Crops",
     date: "2026-08-11",
     author: "Chemicides International",
-    image: liquidProductPhoto,
+    image: fruitCollage,
     excerpt:
       "Boron plays an outsized role in flowering and fruit set. Here's how growers use a 5% liquid boron spray to protect yield during the critical flowering window.",
     content: [
