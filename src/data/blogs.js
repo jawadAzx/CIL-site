@@ -17,6 +17,10 @@ import farmlandHills from "../assets/wwemid.jpg";
 import farmerField from "../assets/images/home-upper-img.jpg";
 import fruitCollage from "../assets/5s.jpg";
 import ricePlanting from "../assets/wwemid2.jpg";
+import agrogold from "../assets/agrogold.jpeg";
+import saffaron from "../assets/saffaron.jpeg";
+import cottonField from "../assets/3s.jpg";
+import liquidProductPhoto from "../assets/p1.jpg";
 
 const blogs = [
   {
@@ -323,6 +327,215 @@ const blogs = [
       "Humic acid, whether applied as a granular soil amendment like Marco Polo (40% humic acid) or a liquid like Nappier (10% humic acid), works by binding soil particles into more stable aggregates, which improves aeration, water infiltration, and root penetration over time.",
       "The effect is cumulative rather than immediate — a single application helps, but fields treated consistently across multiple seasons show the clearest improvements in water-holding capacity and nutrient-use efficiency, meaning less fertilizer is wasted to leaching or lock-up.",
       "For growers focused on long-term soil health rather than just this season's yield, working a humic acid application into land preparation every season is one of the more cost-effective ways to gradually rebuild degraded soil.",
+    ],
+  },
+  {
+    id: 20,
+    slug: "zinc-sulphate-uses-in-agriculture",
+    title: "Zinc Sulphate Fertilizer: Uses in Agriculture Explained",
+    date: "2026-08-13",
+    author: "Chemicides International",
+    image: agrogold,
+    excerpt:
+      "From correcting deficiency to boosting yield and disease resistance — here's a complete look at how zinc sulphate is actually used across Pakistani farms.",
+    content: [
+      "Zinc sulphate is one of the most widely applied micronutrient fertilizers in Pakistani agriculture, used to correct soil zinc deficiency across rice, wheat, cotton, sugarcane, maize and vegetable crops grown on the country's predominantly alkaline and calcareous soils.",
+      "Beyond simply correcting visible deficiency symptoms, regular zinc sulphate use supports chlorophyll synthesis, enzyme activation, and hormone regulation inside the plant — functions that directly influence tillering, flowering, and grain or fruit fill even when a crop isn't showing obvious signs of stress.",
+      "Our range covers three concentrations for different budgets and application styles: Agro Gold (21% Zn) for standard broadcast programs, Saffaron (27% Zn, pentahydrate) for faster-dissolving tank mixes, and Commander (33% Zn, monohydrate) for growers who want to apply less product per acre.",
+      "Most farms use zinc sulphate in one of two ways: a granular soil application worked in before sowing to build up reserves for the whole season, or a dissolved foliar spray used as a faster, targeted correction once deficiency symptoms appear mid-season.",
+      "Because zinc availability drops sharply in high-pH, waterlogged, or heavily cropped soils, an annual soil test is the most reliable way to confirm whether a field genuinely needs zinc sulphate this season or whether existing reserves are still adequate.",
+    ],
+  },
+  {
+    id: 21,
+    slug: "zinc-sulphate-price-per-kg-pakistan",
+    title: "Zinc Sulphate Price in Pakistan: What Actually Determines Cost Per Kg",
+    date: "2026-08-13",
+    author: "Chemicides International",
+    image: saffaron,
+    excerpt:
+      "Bag price isn't the full picture. Here's what drives zinc sulphate cost per kg in Pakistan and how to compare products fairly.",
+    content: [
+      "Zinc sulphate pricing in Pakistan varies by concentration, hydration form, pack size, and brand, which is why comparing bag price alone can be misleading — a cheaper bag of 21% Zn material isn't necessarily better value than a pricier bag of 33% Zn if you need less of the latter to deliver the same total zinc to your field.",
+      "The most useful number to compare is cost per kilogram of actual zinc delivered, not cost per kilogram of product. A 25 kg bag of Commander (33% Zn) delivers roughly 8.25 kg of pure zinc, while the same size bag of Agro Gold (21% Zn) delivers about 5.25 kg — run that math against the bag price before deciding which is cheaper per unit of nutrient.",
+      "Pack size also affects price per kg: smaller retail packs (3-4 kg) carry a higher per-kg cost than bulk 25 kg bags, which matters more for large-acreage growers than for smallholders topping up a limited area.",
+      "Prices shift with international sulphur and zinc ore costs, currency movement, and seasonal demand around the rabi and kharif sowing windows, so it's worth checking current rates with your local dealer or distributor rather than relying on last season's numbers when budgeting for this year's program.",
+    ],
+  },
+  {
+    id: 22,
+    slug: "zinc-deficiency-in-cotton",
+    title: "Zinc Deficiency in Cotton: Symptoms and Correction",
+    date: "2026-08-12",
+    author: "Chemicides International",
+    image: cottonField,
+    excerpt:
+      "Zinc-deficient cotton shows up as shortened internodes and small, mottled leaves well before boll formation suffers. Here's how to catch and correct it.",
+    content: [
+      "Cotton is moderately sensitive to zinc deficiency, and the early signs are easy to miss if you're not looking for them: shortened internodes that give the plant a bunched, rosette-like appearance, along with small, narrow leaves that develop interveinal yellowing or bronze mottling.",
+      "Left uncorrected through the vegetative stage, zinc-deficient cotton typically shows delayed flowering, reduced boll set, and smaller boll size at harvest — losses that are far more costly to recover from than the price of a timely zinc application.",
+      "A soil application of zinc sulphate — Agro Gold (21% Zn), Saffaron (27% Zn), or Commander (33% Zn) — worked in ahead of sowing is the standard preventive approach on fields with a known history of deficiency, particularly on the sandy and alkaline soils common across cotton-growing belts of Punjab and Sindh.",
+      "Where symptoms appear mid-season despite a soil program, a foliar spray of dissolved zinc sulphate or liquid zinc (Scotch, 10% Zn) can green up the crop faster than waiting for a second soil application to take effect, though it works best as a supplement to — not a replacement for — proper soil-applied zinc.",
+    ],
+  },
+  {
+    id: 23,
+    slug: "zinc-deficiency-in-wheat",
+    title: "Zinc Deficiency in Wheat: Identifying and Fixing It Before Boot Stage",
+    date: "2026-08-12",
+    author: "Chemicides International",
+    image: wheatPath,
+    excerpt:
+      "Wheat's zinc demand peaks earlier than most growers expect. Here's how to spot deficiency in time to protect tillering and grain fill.",
+    content: [
+      "Zinc-deficient wheat shows chlorotic streaking between the leaf veins, particularly on younger leaves, along with stunted growth and reduced tillering — symptoms that are often mistaken for nitrogen shortage or general poor establishment early in the season.",
+      "Because zinc demand in wheat is highest during tillering and stem elongation, correcting a deficiency after the crop reaches boot stage does little to recover the tillers and yield potential already lost — timing the correction to early growth stages matters more than the total quantity applied.",
+      "A basal soil application of zinc sulphate at or before sowing — Agro Gold (21% Zn), Saffaron (27% Zn), or Commander (33% Zn) — remains the most reliable way to prevent deficiency from limiting tillering in the first place, especially on the alkaline, calcareous soils common across Pakistan's wheat belt.",
+      "Where a field has a documented history of zinc problems, pairing a soil application with a single foliar spray during early tillering gives the crop two chances to take up zinc before the demand window closes, rather than relying on one application alone.",
+    ],
+  },
+  {
+    id: 24,
+    slug: "best-time-to-apply-zinc-sulphate",
+    title: "Best Time to Apply Zinc Sulphate: A Rabi and Kharif Timing Guide",
+    date: "2026-08-11",
+    author: "Chemicides International",
+    image: riceTerraces,
+    excerpt:
+      "Applying zinc sulphate at the right growth stage matters as much as the rate. Here's when to apply it across Pakistan's two main cropping seasons.",
+    content: [
+      "For kharif crops like rice, cotton, sugarcane, and maize, zinc sulphate is best worked into the soil during land preparation, before sowing or transplanting — this gives roots time to establish zinc uptake before the vegetative growth phase, when demand for the nutrient is highest.",
+      "For rabi crops like wheat, a basal application at or just before sowing serves the same purpose, with tillering being the critical window where a zinc shortfall does the most damage to eventual yield.",
+      "Waiting until visible deficiency symptoms appear — bronzing in rice, interveinal yellowing in wheat and cotton — means the crop has already lost some growth potential; at that point, a foliar spray of dissolved zinc sulphate or liquid zinc (Scotch, 10% Zn) is the fastest way to limit further damage while a soil-applied program is planned for the following season.",
+      "Fields with a documented history of zinc deficiency, such as rice paddies affected by Hudda disease, benefit from building a zinc application into every season's routine at land preparation, rather than treating it as a reactive fix only after symptoms return.",
+    ],
+  },
+  {
+    id: 25,
+    slug: "liquid-boron-5-percent-foliar-spray-guide",
+    title: "Liquid Boron 5% Fertilizer: Foliar Spray Guide for Cotton and Fruit Crops",
+    date: "2026-08-11",
+    author: "Chemicides International",
+    image: liquidProductPhoto,
+    excerpt:
+      "Boron plays an outsized role in flowering and fruit set. Here's how growers use a 5% liquid boron spray to protect yield during the critical flowering window.",
+    content: [
+      "Boron is needed in very small quantities compared to macronutrients, but it plays a disproportionate role in pollen germination, flower retention, and fruit or boll set — deficiency often shows up not as visible leaf damage but as poor fruit set and lower yield with no obvious explanation.",
+      "Our Bukhara (5% liquid boron) is formulated for foliar application, delivering boron directly to the plant during flowering, the growth stage when boron demand is highest and soil-applied boron often can't keep pace with plant uptake.",
+      "Cotton, sunflower, and a range of fruit crops respond well to a foliar boron spray timed just before or during early flowering, when improving pollen viability and flower retention has the biggest impact on final yield.",
+      "Boron has a narrow safety margin compared to most micronutrients — overapplication can cause its own toxicity symptoms — so it's worth following label dosage carefully and avoiding boron sprays on crops that haven't shown a deficiency history or soil test indication.",
+    ],
+  },
+  {
+    id: 26,
+    slug: "boron-deficiency-in-cotton-sunflower",
+    title: "Boron Deficiency in Cotton and Sunflower: Symptoms and Correction",
+    date: "2026-08-10",
+    author: "Chemicides International",
+    image: vegCollage,
+    excerpt:
+      "Boron-deficient cotton and sunflower often look otherwise healthy while quietly losing flowers and bolls. Here's what to watch for.",
+    content: [
+      "Boron deficiency is easy to overlook because the plant often looks broadly healthy — the main symptom is poor flower and boll retention in cotton, or reduced seed set in the sunflower head, rather than dramatic leaf discoloration.",
+      "In cotton, deficient plants may show thickened, brittle stems and shortened internodes near the growing tip, along with shedding of small bolls shortly after flowering — losses that are frequently misattributed to heat stress or pest damage rather than a nutrient shortfall.",
+      "Sunflower is particularly sensitive to boron during head formation and flowering; deficiency at this stage can result in incomplete seed fill across the head, visibly reducing the harvestable yield even when the plant otherwise appeared normal through vegetative growth.",
+      "A foliar spray of liquid boron, such as Bukhara (5% B), timed to just before flowering is the standard correction, and growers in fields with a known history of boron shortfall often build a preventive spray into their flowering-stage program rather than waiting for symptoms to confirm the deficiency.",
+    ],
+  },
+  {
+    id: 27,
+    slug: "liquid-potash-30-percent-sugarcane-fruit",
+    title: "Liquid Potash 30% (Chinar): Dosage and Benefits for Sugarcane and Fruit Crops",
+    date: "2026-08-10",
+    author: "Chemicides International",
+    image: sugarcane,
+    excerpt:
+      "Potassium drives sugar accumulation, fruit size, and stress tolerance. Here's how growers use a 30% liquid potash to support sugarcane and fruit crops through the season.",
+    content: [
+      "Potassium plays a central role in sugar and starch movement within the plant, water regulation, and resistance to drought and disease stress — functions that make it especially important for sugarcane, where potassium directly influences sucrose accumulation in the cane.",
+      "Our Chinar (30% liquid potash) is designed for foliar application or fertigation, making it easy to fold into an existing spray or irrigation schedule without the equipment changes a granular potash application would require.",
+      "Sugarcane responds well to potassium applications during the grand growth and maturation phases, when sugar accumulation accelerates, while fruit crops typically see the biggest benefit from potassium timed around fruit development and sizing.",
+      "Because potassium works alongside — not instead of — nitrogen and phosphorus, liquid potash is most effective as part of a balanced nutrition program rather than a standalone input, particularly on soils already managed with a regular NPK schedule.",
+    ],
+  },
+  {
+    id: 28,
+    slug: "multi-micronutrient-liquid-fertilizer-samarqand",
+    title: "Samarqand Multi-Micronutrient Liquid Fertilizer: Zinc, Iron, Manganese and Copper in One Spray",
+    date: "2026-08-09",
+    author: "Chemicides International",
+    image: citrus,
+    excerpt:
+      "When a crop shows more than one micronutrient deficiency at once, a combined liquid blend can correct several gaps in a single pass.",
+    content: [
+      "Multiple micronutrient deficiencies often overlap in the same field, particularly on sandy or heavily cropped soils, which is why a combined blend can be more practical than treating each deficiency with a separate product and spray pass.",
+      "Samarqand combines 6% zinc, 2% iron, 1% manganese, and 1% copper in a single liquid formulation, covering the micronutrients most commonly limiting in field crops, vegetables, and fruit trees grown on Pakistan's alkaline soils.",
+      "Because it's formulated for foliar application, Samarqand works well as a rescue treatment when a crop shows generalized chlorosis or uneven growth that doesn't point to a single obvious deficiency — a combined micronutrient spray corrects multiple potential gaps without needing to diagnose each one separately first.",
+      "For fields with a known, specific deficiency — such as a documented zinc shortfall on rice paddies — a targeted single-nutrient product like zinc sulphate or Scotch liquid zinc remains the more cost-effective choice; Samarqand earns its value where deficiency symptoms are mixed or the underlying cause isn't clear.",
+    ],
+  },
+  {
+    id: 29,
+    slug: "ammonium-thiosulfate-fertilizer-guide",
+    title: "Ammonium Thiosulfate Liquid Fertilizer: A Nitrogen-Sulfur Guide for Wheat and Cotton",
+    date: "2026-08-09",
+    author: "Chemicides International",
+    image: wheatSunset,
+    excerpt:
+      "Ammonium thiosulfate delivers nitrogen and sulfur together in a liquid form that's easy to tank-mix. Here's how and when growers use it.",
+    content: [
+      "Sulfur deficiency is becoming more common on intensively cropped soils in Pakistan, showing up as pale, uniformly yellow young leaves that can be mistaken for nitrogen shortage — the distinction matters because correcting the wrong nutrient wastes an input and delays the actual fix.",
+      "Ammonium thiosulfate delivers 11% nitrogen and 25% sulfur in a single liquid product, making it a convenient way to address both nutrients together, particularly useful for wheat and cotton, both of which have meaningful sulfur requirements for protein and oil synthesis respectively.",
+      "Being a liquid, it tank-mixes readily with other inputs and can be applied through fertigation systems, though as with any sulfur-containing product it's worth checking compatibility with other tank-mix partners before combining, since sulfur compounds can react with certain pesticides and micronutrient blends.",
+      "Applying ammonium thiosulfate during active vegetative growth, when nitrogen and sulfur demand are both rising, gets the most benefit from a single application compared to applying it very early or very late in the season.",
+    ],
+  },
+  {
+    id: 30,
+    slug: "potassium-thiosulfate-fertigation-guide",
+    title: "Potassium Thiosulfate: Fertigation and Foliar Use for Better Fruit Quality",
+    date: "2026-08-09",
+    author: "Chemicides International",
+    image: fruitCollage,
+    excerpt:
+      "Potassium thiosulfate combines two nutrients growers often need together — potassium for fruit quality and sulfur for protein synthesis — in a form suited to drip systems.",
+    content: [
+      "Potassium thiosulfate delivers 36% potassium and 36% sulfur in a single liquid product, a combination particularly useful during fruit development, when potassium drives sugar accumulation and fruit sizing while sulfur supports the plant's broader metabolic and protein-building processes.",
+      "Its high solubility and compatibility with drip irrigation make it a practical choice for growers running fertigation systems on fruit orchards and high-value vegetable crops, where precise, split applications through the season are easier to manage than periodic granular broadcasts.",
+      "Because both potassium and sulfur demand rise sharply during fruit fill, timing applications to the flowering-through-fruit-development window generally gives the strongest response compared to earlier vegetative-stage applications.",
+      "As with other thiosulfate-based liquids, growers should confirm compatibility before tank-mixing with other fertigation inputs, since combining incompatible products in a drip system can cause precipitation that clogs emitters rather than delivering nutrients to the root zone.",
+    ],
+  },
+  {
+    id: 31,
+    slug: "calcium-polysulfide-liquid-sulfur-soil-amendment",
+    title: "Calcium Polysulfide 22%: Liquid Sulfur for Alkaline Soil Correction",
+    date: "2026-08-09",
+    author: "Chemicides International",
+    image: farmlandHills,
+    excerpt:
+      "High-pH soils lock up several key nutrients before crops can use them. Liquid calcium polysulfide is one of the more direct tools for lowering soil pH over time.",
+    content: [
+      "Much of Pakistan's cultivated land sits on alkaline to calcareous soils, where high pH reduces the availability of zinc, iron, manganese, and phosphorus even when those nutrients are present in adequate total quantity — a soil chemistry problem that fertilizer alone doesn't fully solve.",
+      "Calcium polysulfide, applied as a 22% liquid sulfur product, works by releasing sulfur that oxidizes in the soil over time, gradually lowering soil pH and improving the availability of nutrients that are otherwise locked up in high-pH conditions.",
+      "Because the pH-lowering effect builds up over repeated applications rather than happening instantly, calcium polysulfide is best used as a longer-term soil improvement strategy on fields with a persistent history of high pH and poor micronutrient response, rather than a quick fix for an already-visible deficiency.",
+      "It's commonly applied alongside — not instead of — a regular fertilizer and micronutrient program; improving soil pH increases how efficiently nutrients like zinc sulphate are taken up, making the two approaches complementary on problem soils.",
+    ],
+  },
+  {
+    id: 32,
+    slug: "copper-sulphate-fungicide-micronutrient-uses",
+    title: "Copper Sulphate (Sapphire 25%): Fungicide and Micronutrient Uses in Crops",
+    date: "2026-08-09",
+    author: "Chemicides International",
+    image: tomatoes,
+    excerpt:
+      "Copper sulphate does double duty — correcting copper deficiency and controlling a range of fungal diseases. Here's how growers use it for each purpose.",
+    content: [
+      "Copper sulphate serves two distinct roles in crop management: as a micronutrient source correcting copper deficiency in soil, and as a fungicide controlling fungal diseases like blight, mildew, and rust on the plant surface — the application method differs depending on which purpose it's being used for.",
+      "As a soil amendment, Sapphire (25% Cu) corrects copper deficiency, which shows up as wilting, dieback of young shoots, and poor grain fill in cereal crops grown on copper-deficient soils, though true copper deficiency is less widespread than zinc deficiency across Pakistan's farmland.",
+      "As a fungicide, dissolved copper sulphate is applied as a protective spray on vegetables, fruit trees, and other disease-prone crops, working by inhibiting fungal growth on contact rather than being absorbed systemically into the plant.",
+      "Because copper sulphate is also used as an algaecide and can affect soil microbial activity at high rates, it's worth following label rates carefully and avoiding repeated high-dose applications to the same field year after year without a clear disease or deficiency justification.",
     ],
   },
 ];
