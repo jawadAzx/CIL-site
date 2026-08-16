@@ -45,6 +45,7 @@
     "react-snap": "^1.23.0"
   },
   "reactSnap": {
+    "concurrency": 1,
     "skipThirdPartyRequests": true,
     "puppeteerArgs": [
       "--no-sandbox",

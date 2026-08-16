@@ -5,14 +5,16 @@ import agrogold from '../../assets/agrogold.jpeg'
 import commander from '../../assets/commander.jpeg'
 import microgold from '../../assets/microgold.jpeg'
 import saffaron from '../../assets/saffaron.jpeg'
+import kernalFront from '../../assets/kernal_front.png'
+import kernalBack from '../../assets/kernal_back.png'
 import usePageMeta from '../../hooks/usePageMeta'
 
 const Products = () => {
     usePageMeta({
         title: 'Granular Fertilizers',
-        description: 'Granular zinc sulphate (21%, 27%, 33% Zn) and multi-micronutrient fertilizers from Chemicides International — for rice, wheat, cotton and vegetable crops in Pakistan.',
+        description: 'Shop Kernal EDTA-chelated zinc (5% Zn), granular zinc sulphate (21%, 27%, 33% Zn), and multi-micronutrient fertilizers from Chemicides International in Pakistan.',
         path: '/granular',
-        image: commander,
+        image: kernalFront,
     });
 
     const zincSulphateProducts = [
@@ -70,6 +72,26 @@ const Products = () => {
 },
 
 
+    ];
+
+    const chelatedZincProducts = [
+        {
+            id: 18,
+            title: 'Kernal | Zn 5%',
+            subTitle: 'EDTA Chelated Zinc',
+            size: '2 kg pack',
+            details: 'Kernal is a premium EDTA-chelated zinc crop supplement containing 5% zinc (50 g/kg). Its chelated form helps keep zinc available for efficient plant uptake, supporting healthy growth and helping crops recover from zinc deficiency, particularly in alkaline and calcareous soils.',
+            advantages: [
+                'Helps correct and prevent zinc deficiency in crops.',
+                'Supports chlorophyll formation, enzyme activity, and healthy plant growth.',
+                'Promotes stronger shoots, improved flowering, and uniform crop development.',
+                'EDTA chelation helps maintain zinc availability for efficient plant uptake.',
+                'Suitable for field crops, vegetables, fruit crops, and orchards.'
+            ],
+            category: 'Chelated Zinc',
+            imagePath: kernalFront,
+            imageBackPath: kernalBack
+        }
     ];
     // eslint-disable-next-line no-unused-vars
     const copperSulfateProducts = [
@@ -315,8 +337,8 @@ const Products = () => {
         return (
             <div className="product-grid">
                 {data.map((card) => (
-                    <div className="product-card" key={card.id} >
-                    <div 
+                    <div className="product-card" key={card.id} tabIndex="0">
+                    <div
                         className="product-card-image"
                         style={{
                             backgroundImage: `url(${card.imagePath})`,
@@ -324,6 +346,13 @@ const Products = () => {
                             backgroundPosition: 'center'
                         }}
                     />
+                    {card.imageBackPath && (
+                        <div
+                            className="product-card-image product-card-image-back"
+                            style={{ backgroundImage: `url(${card.imageBackPath})` }}
+                            aria-hidden="true"
+                        />
+                    )}
                         <div className="product-card-details">
                             <h2 className="product-card-title">{card.title}
                                 <span className="product-card-description bold">{card.subTitle}</span>
@@ -359,6 +388,10 @@ const Products = () => {
                     Zinc Sulphate
                 </div>
                 <Grid data={zincSulphateProducts} />
+                <div className='product-category-heading mt-30'>
+                    Chelated Zinc
+                </div>
+                <Grid data={chelatedZincProducts} />
                 <div className='product-category-heading mt-30'>
                     Multi Micronutrients
                 </div>
