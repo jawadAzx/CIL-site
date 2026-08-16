@@ -1,124 +1,21 @@
-.dashboard-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 82.1vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@500;600;700&family=Noto+Nastaliq+Urdu&display=swap');
+.home-page{background:#f8faf5;color:#163c29}.section-wrap{max-width:1184px;margin:0 auto;padding-left:28px;padding-right:28px}
+.hero{position:relative;min-height:690px;overflow:hidden;display:flex;align-items:center}.hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,40,22,.94) 0%,rgba(12,52,29,.78) 42%,rgba(12,52,29,.12) 76%),linear-gradient(0deg,rgba(6,31,18,.35),transparent 50%)}
+.hero-content{position:relative;z-index:2;width:min(1184px,calc(100% - 56px));margin:auto;color:#fff;padding:82px 0}.eyebrow{text-transform:uppercase;letter-spacing:2.4px;font-size:12px;font-weight:700;color:#dfb75e;margin:0 0 20px}.eyebrow.dark{color:#8a6b27}.hero h1{font-family:Georgia,serif;font-size:clamp(54px,6vw,88px);line-height:.98;letter-spacing:-3px;margin:0;max-width:770px;font-weight:500}.hero h1 em{font-weight:400;color:#e5c170}.hero-copy{font-size:18px;line-height:1.7;color:#dce9df;max-width:600px;margin:30px 0}.hero-actions{display:flex;gap:24px;align-items:center}.primary-btn,.dark-btn{border:0;border-radius:5px;padding:16px 21px;display:flex;align-items:center;gap:12px;font-weight:700;cursor:pointer}.primary-btn{background:#e1b552;color:#173b28}.primary-btn:hover{background:#f0cb74}.text-btn{color:white;background:transparent;border:0;border-bottom:1px solid rgba(255,255,255,.6);padding:10px 0;cursor:pointer;font-weight:600}.urdu{font-family:'Noto Nastaliq Urdu',serif;color:#e8ce8b;margin-top:36px;font-size:17px}.hero-proof{position:absolute;right:0;bottom:0;z-index:3;background:#f8faf5;color:#173d29;width:390px;padding:28px 48px 28px 34px;display:flex;flex-direction:column;gap:7px}.hero-proof:before{content:"";position:absolute;left:-20px;top:0;border-bottom:101px solid #f8faf5;border-left:20px solid transparent}.hero-proof strong{font-family:Georgia,serif;font-size:21px}.hero-proof span{font-size:12px;line-height:1.55;color:#667d6d}
+.intro{display:grid;grid-template-columns:1.35fr .8fr;gap:100px;padding-top:110px;padding-bottom:68px;align-items:end}.intro h2,.product-copy h2,.home-cta h2{font-family:Georgia,serif;font-size:clamp(38px,4vw,58px);line-height:1.08;letter-spacing:-1.5px;margin:0;font-weight:500}.intro>p{font-size:17px;line-height:1.8;color:#64786b;margin:0 0 6px}
+.benefit-grid{display:grid;grid-template-columns:repeat(3,1fr);padding-bottom:110px}.benefit-grid article{position:relative;padding:42px 36px;border:1px solid #dbe4da;background:#fbfcf9}.benefit-grid article+article{border-left:0}.benefit-grid svg{font-size:30px;color:#b58a31}.benefit-grid span{position:absolute;right:28px;top:24px;color:#9bad9f;font-size:12px}.benefit-grid h3{font-family:Georgia,serif;font-size:25px;margin:36px 0 14px}.benefit-grid p{color:#6a7c70;line-height:1.65;margin:0;font-size:14px}
+.product-feature{display:grid;grid-template-columns:1fr 1fr;min-height:620px;padding-bottom:110px}.product-visual{background:#e4eadf;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}.product-visual:before{content:"";width:360px;height:360px;border:1px solid rgba(22,76,47,.18);border-radius:50%;position:absolute}.product-visual span{position:absolute;top:28px;left:30px;text-transform:uppercase;letter-spacing:2px;font-size:10px;font-weight:700}.product-visual img{width:68%;max-height:510px;object-fit:contain;position:relative;mix-blend-mode:multiply}.product-copy{background:#fff;padding:72px;display:flex;flex-direction:column;justify-content:center}.product-copy>p:not(.eyebrow){color:#667a6d;line-height:1.75;font-size:16px}.product-copy ul{list-style:none;padding:8px 0;margin:0 0 24px}.product-copy li{display:flex;align-items:center;gap:10px;padding:9px 0;color:#385541;font-size:14px}.product-copy li svg{color:#b58a31}.dark-btn{background:#174c31;color:white;align-self:flex-start}.dark-btn:hover{background:#0c3620}
+.home-cta{background:#174c31;color:white;padding:68px max(28px,calc((100vw - 1184px)/2));display:flex;align-items:center;justify-content:space-between;gap:30px}.home-cta h2{font-size:42px;max-width:650px}.home-cta button{background:#e4b854;border:0;border-radius:5px;padding:16px 22px;font-weight:700;color:#173b28;display:flex;gap:10px;align-items:center;cursor:pointer;white-space:nowrap}
+@media(max-width:800px){.hero{min-height:700px;align-items:flex-end}.hero-shade{background:linear-gradient(0deg,rgba(7,39,22,.96) 10%,rgba(7,39,22,.4) 85%)}.hero-content{width:calc(100% - 40px);padding:210px 0 80px}.hero h1{font-size:52px;letter-spacing:-2px}.hero-copy{font-size:16px}.hero-proof{display:none}.hero-actions{align-items:flex-start;flex-direction:column;gap:12px}.intro{grid-template-columns:1fr;gap:25px;padding:76px 20px 48px}.benefit-grid{grid-template-columns:1fr;padding:0 20px 76px}.benefit-grid article+article{border-left:1px solid #dbe4da;border-top:0}.product-feature{grid-template-columns:1fr;padding:0 20px 76px}.product-visual{min-height:400px}.product-copy{padding:45px 25px}.home-cta{flex-direction:column;align-items:flex-start;padding:55px 20px}.home-cta h2{font-size:36px}}
 
-.dashboard-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 50%;
-    height: 100%;
-    background-color: #fff;
-    z-index: 1;
-}
-
-.dashboard-heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: #424242;
-    margin-left: 120px;
-    text-align: left;
-
-}
-
-@import url("https://fonts.googleapis.com/css?family=Noto+Nastaliq+Urdu");
-
-
-.dashboard-subheading {
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 22px;
-    font-weight: 400;
-    color: red;
-    margin-left: 120px;
-    text-align: left;
-}
-
-.transparent-button {
-    font-family: 'Roboto', sans-serif;
-    background-color: transparent;
-    border: 2px solid #424242;
-    color: #424242;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-left: 120px;
-    margin-top: 30px;
-}
-
-.transparent-button:hover {
-    font-family: 'Roboto', sans-serif;
-    background-color: #424242;
-    color: #ffffff;
-    /* Optional: Change text color on hover */
-}
-
-.dashboard-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    height: 100%;
-    position: relative;
-    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
-    z-index: 0;
-
-}
-
-.dashboard-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-@media screen and (max-width: 768px) {
-    .dashboard-container {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-
-
-    }
-
-    .dashboard-left {
-        width: 100%;
-        height: 50%;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    .dashboard-heading {
-        margin-left: 0px;
-        text-align: center;
-        width: 80%;
-    }
-
-    .transparent-button {
-        margin-left: 0px;
-        width: 40%;
-    }
-
-    .dashboard-right {
-        width: 100%;
-        height: 80%;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
-    }
-
-    .dashboard-subheading {
-        font-family: "Noto Nastaliq Urdu", serif;
-        font-size: 20px;
-        font-weight: 400;
-        color: red;
-        margin-left: 0;
-        text-align: center;
-    }
-}
+/* Premium visual pass */
+.hero{min-height:735px}.hero:after{content:"";position:absolute;inset:18px;border:1px solid rgba(255,255,255,.18);z-index:2;pointer-events:none}.hero-image{transform:scale(1.01);animation:heroReveal 1.4s ease-out both}.hero-shade{background:linear-gradient(90deg,rgba(5,35,19,.96),rgba(10,51,28,.82) 42%,rgba(12,52,29,.08) 78%),linear-gradient(0deg,rgba(6,31,18,.46),transparent 58%)}
+.hero-content{z-index:3;animation:contentRise .9s .15s ease-out both}.eyebrow{letter-spacing:2.8px;font-size:11px;display:flex;align-items:center;gap:12px}.eyebrow:before{content:"";width:34px;height:1px;background:currentColor}.hero h1{font-size:clamp(58px,6.4vw,94px);line-height:.95;letter-spacing:-3.5px;text-shadow:0 10px 35px rgba(0,0,0,.12)}.hero-copy{line-height:1.8;max-width:570px}.primary-btn,.dark-btn{border-radius:3px;padding:17px 23px;box-shadow:0 10px 25px rgba(10,35,22,.12)}.primary-btn:hover,.dark-btn:hover{transform:translateY(-2px)}.hero-proof{right:18px;bottom:18px;width:410px;padding:31px 48px 31px 38px;box-shadow:0 20px 50px rgba(5,31,18,.15)}
+.intro{padding-top:125px;padding-bottom:75px;position:relative}.intro:after{content:"CIL";position:absolute;right:20px;top:58px;font-family:Georgia,serif;font-size:150px;line-height:1;color:rgba(23,76,49,.035);font-weight:700}
+.benefit-grid article{padding:46px 38px;background:linear-gradient(145deg,#fff,#f5f8f2);overflow:hidden;transition:.3s}.benefit-grid article:after{content:"";position:absolute;width:120px;height:120px;border:1px solid rgba(181,138,49,.1);border-radius:50%;right:-55px;bottom:-55px}.benefit-grid article:hover{background:#fff;transform:translateY(-5px);box-shadow:0 22px 45px rgba(19,61,39,.09);z-index:2}.benefit-grid h3{font-size:26px}.benefit-grid p{line-height:1.7}
+.product-visual{background:radial-gradient(circle at 50% 45%,#f1f4ed 0 28%,#dfe7da 29% 100%)}.product-visual:before{width:380px;height:380px}.product-visual:after{content:"";position:absolute;width:470px;height:470px;border:1px solid rgba(22,76,47,.07);border-radius:50%}.product-visual img{z-index:1;filter:drop-shadow(0 25px 25px rgba(33,67,43,.15));transition:transform .5s}.product-visual span{z-index:2}.product-feature:hover .product-visual img{transform:translateY(-8px) scale(1.02)}.product-copy{padding:78px;box-shadow:0 20px 60px rgba(20,59,39,.06)}.product-copy li{padding:10px 0;border-bottom:1px solid #edf1eb}
+.home-cta{padding-top:78px;padding-bottom:78px;background:linear-gradient(120deg,#0e3923,#1d5939);position:relative;overflow:hidden}.home-cta:after{content:"";position:absolute;right:12%;width:330px;height:330px;border:1px solid rgba(255,255,255,.08);border-radius:50%}.home-cta>*,.home-cta button{position:relative;z-index:1}.home-cta button{border-radius:3px}.home-cta button:hover{background:#f0cc78;transform:translateY(-2px)}
+@keyframes heroReveal{from{opacity:.5;transform:scale(1.08)}to{opacity:1;transform:scale(1.01)}}@keyframes contentRise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.hero-image,.hero-content{animation:none}.benefit-grid article,.product-visual img{transition:none}}
+@media(max-width:800px){.hero{min-height:710px}.hero:after{inset:10px}.hero h1{font-size:52px}.product-copy{padding:45px 25px}.intro:after{font-size:90px;top:35px}.home-cta{padding-top:58px;padding-bottom:58px}}
+@media(min-width:801px){.hero h1{font-size:92px}.intro h2,.product-copy h2{font-size:56px}}

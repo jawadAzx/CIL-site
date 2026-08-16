@@ -354,6 +354,7 @@ const Products = () => {
                         />
                     )}
                         <div className="product-card-details">
+                            <span className="product-card-category">{card.category}</span>
                             <h2 className="product-card-title">{card.title}
                                 <span className="product-card-description bold">{card.subTitle}</span>
                             </h2>
@@ -361,6 +362,7 @@ const Products = () => {
                             <p className="product-card-description bold"> {card.size}
                                 {/* <span className="product-card-description bold ml-1">Rs. {card.price}</span> */}
                             </p>
+                            <span className="product-card-action">View formulation <span>&rarr;</span></span>
 
                         </div>
                     </div>
@@ -375,15 +377,22 @@ const Products = () => {
         <div className='product-container'>
             <div className='product-top-container'>
                 <div className='product-top-left'>
+                    <span className="product-hero-kicker">Crop nutrition</span>
                     <div className='product-top-heading'>
                         Granular Fertilizers
                     </div>
+                    <p className="product-hero-copy">Targeted nutrition for stronger roots, healthier crops, and productive harvests.</p>
                 </div>
                 <div className='product-top-right'>
                     <img src={wwebanner} alt="wwebanner" className="wwe-top-img" />
                 </div>
             </div>
             <div className="product-mid-container">
+                <div className="product-intro">
+                    <div><span>Our portfolio</span><h2>Built for the soil.<br/>Proven in the field.</h2></div>
+                    <p>Explore focused granular nutrition for correcting deficiencies and supporting stronger crop performance across Pakistan.</p>
+                </div>
+                <div className="product-category-nav"><span>01 Zinc Sulphate</span><span>02 Chelated Zinc</span><span>03 Multi Micronutrients</span></div>
                 <div className='product-category-heading'>
                     Zinc Sulphate
                 </div>

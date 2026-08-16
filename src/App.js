@@ -13,6 +13,7 @@ import Menu from "./components/Header/Menu";
 // import Gallery from "./components/SubPages/Gallery";
 import Blogs from "./components/SubPages/Blogs";
 import BlogPost from "./components/SubPages/BlogPost";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           {/* <Route path="/gallery" element={<Gallery />} /> */}
         </Routes>
+        <Footer />
       </Router>
 
     </div>

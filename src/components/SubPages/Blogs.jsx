@@ -12,6 +12,8 @@ const formatDate = (dateStr) => {
 
 const Blogs = () => {
     const sortedBlogs = [...blogs].sort((a, b) => new Date(b.date) - new Date(a.date));
+    const featuredPost = sortedBlogs[0];
+    const remainingPosts = sortedBlogs.slice(1);
 
     usePageMeta({
         title: 'Blog',
@@ -23,17 +25,28 @@ const Blogs = () => {
         <div className='blogs-container'>
             <div className='blogs-top-container'>
                 <div className='blogs-top-left'>
+                    <span className="blogs-hero-kicker">Field knowledge</span>
                     <div className='blogs-top-heading'>
-                        Blog
+                        Agronomy Insights
                     </div>
+                    <p className="blogs-hero-copy">Practical guidance for healthier soil, smarter nutrition, and stronger crops.</p>
                 </div>
                 <div className='blogs-top-right'>
                     <img src={wwebanner} alt="blog banner" className="blogs-top-img" />
                 </div>
             </div>
             <div className="blogs-mid-container">
+                <div className="blogs-section-heading">
+                    <div><span>Latest from the field</span><h2>Knowledge that helps crops thrive.</h2></div>
+                    <p>Research-led, practical guides for growers, agronomists, and agricultural partners.</p>
+                </div>
+                {featuredPost && <Link className="featured-blog" to={`/blogs/${featuredPost.slug}`}>
+                    <div className="featured-blog-image" style={{backgroundImage:`url(${featuredPost.image})`}} />
+                    <div className="featured-blog-copy"><span>Featured insight · {formatDate(featuredPost.date)}</span><h2>{featuredPost.title}</h2><p>{featuredPost.excerpt}</p><strong>Read the full article &rarr;</strong></div>
+                </Link>}
+                <div className="blog-archive-title"><span>Explore all insights</span><i /></div>
                 <div className="blogs-grid">
-                    {sortedBlogs.map((post) => (
+                    {remainingPosts.map((post) => (
                         <Link
                             className="blog-card"
                             key={post.id}
