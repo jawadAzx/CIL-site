@@ -20,6 +20,8 @@
     "prebuild": "node scripts/generate-seo-artifacts.js",
     "build": "react-scripts build",
     "postbuild": "react-snap || echo '[seo] react-snap prerendering failed (this build environment is likely missing Chrome shared libs, e.g. Vercel'\\''s remote build container) — shipping the regular client-rendered build instead. Prerendering works when built on a machine with a full Chrome/Chromium install (confirmed locally); see README for a prebuilt-deploy workflow.'",
+    "seo:check": "node scripts/seo-check.js",
+    "seo:brief": "node scripts/seo-content-calendar.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -88,7 +90,10 @@
       "/blogs/ammonium-thiosulfate-fertilizer-guide",
       "/blogs/potassium-thiosulfate-fertigation-guide",
       "/blogs/calcium-polysulfide-liquid-sulfur-soil-amendment",
-      "/blogs/copper-sulphate-fungicide-micronutrient-uses"
+      "/blogs/copper-sulphate-fungicide-micronutrient-uses",
+      "/blogs/zinc-sulphate-dose-per-acre-rice-pakistan",
+      "/blogs/zinc-deficiency-in-maize-symptoms-treatment-pakistan",
+      "/blogs/soil-test-report-guide-pakistan-fertilizer-plan"
     ]
   }
 }

@@ -125,7 +125,7 @@ const blogs = [
     author: "Chemicides International",
     image: ricePaddy,
     excerpt:
-      "Known locally as 'Hudda' disease, zinc deficiency in rice causes stunted, bronzed seedlings and poor tillering. Here's how to recognize it early and correct it with zinc sulphate.",
+      "Hudda disease causes stunted, bronzed rice seedlings and poor tillering. Learn how to recognize zinc deficiency early and choose a correction.",
     content: [
       "Rice growers across Punjab and Sindh often refer to zinc deficiency in paddy fields as 'Hudda' disease — a local term for the stunted, bronze-tipped seedlings that appear roughly two to three weeks after transplanting in zinc-deficient, waterlogged soils.",
       "The symptoms are distinctive: leaves develop rusty brown or bronze streaking starting from the midrib, plant height stays noticeably shorter than healthy patches nearby, and tillering slows down sharply. Left uncorrected, affected patches can suffer significant yield loss at harvest.",
@@ -174,7 +174,7 @@ const blogs = [
     author: "Chemicides International",
     image: riceTerraces,
     excerpt:
-      "Pakistan's alkaline, calcareous soils make zinc especially hard for crops to access. Here's how granular sulphate, chelated EDTA, and liquid zinc compare for these conditions.",
+      "Compare zinc sulphate, chelated EDTA and liquid zinc for Pakistan's alkaline, calcareous soils and choose the right application route.",
     content: [
       "A large share of cultivated land in Pakistan sits on alkaline to calcareous soils, where high pH and free calcium carbonate cause applied zinc to quickly convert into forms plants can't absorb — which is why zinc deficiency remains one of the most persistent micronutrient issues in the region.",
       "Granular zinc sulphate, such as our Commander (33% Zn), remains the most economical way to build up soil zinc reserves over time, and repeated seasonal applications gradually improve the zinc status of a field even where some of each application gets locked up.",
@@ -255,7 +255,7 @@ const blogs = [
     author: "Chemicides International",
     image: sugarcane,
     excerpt:
-      "Combining humic acid with potassium in a single liquid product covers two jobs at once — better nutrient uptake and stronger potassium-driven growth. Here's how to time it.",
+      "Learn when to apply liquid humic acid with potassium for root development, nutrient uptake and potassium-driven crop growth.",
     content: [
       "Our Nappier liquid humic acid blend combines 10% humic acid with 3.5% potassium oxide (K2O) in a single product, covering both soil conditioning and a meaningful potassium boost in one application — useful for growers managing multiple inputs across a large cropping area.",
       "Early-season applications, at sowing or shortly after germination, take advantage of humic acid's root-development benefits when the plant is establishing its root system and most able to benefit from improved nutrient access.",
@@ -271,7 +271,7 @@ const blogs = [
     author: "Chemicides International",
     image: ricePlanting,
     excerpt:
-      "Saline and alkaline soils are widespread across Pakistan's canal-irrigated belts. Liquid humic acid is one of the more practical tools for improving how these soils behave.",
+      "Learn where liquid humic acid fits into a broader management plan for saline and alkaline soils in Pakistan's canal-irrigated belts.",
     content: [
       "Large areas of canal-irrigated land in Punjab and Sindh face secondary salinity and high pH, conditions that reduce how well roots can take up water and nutrients even when fertilizer is applied at the correct rate.",
       "Humic acid helps in these conditions by improving soil structure and reducing the binding of nutrients to soil particles, giving roots better access to whatever nutrients — including zinc and potassium — are already present or applied alongside it.",
@@ -497,7 +497,7 @@ const blogs = [
     author: "Chemicides International",
     image: fruitCollage,
     excerpt:
-      "Potassium thiosulfate combines two nutrients growers often need together — potassium for fruit quality and sulfur for protein synthesis — in a form suited to drip systems.",
+      "Learn how potassium thiosulfate supplies potassium and sulfur through fertigation, and how timing affects fruit development and quality.",
     content: [
       "Potassium thiosulfate delivers 36% potassium and 36% sulfur in a single liquid product, a combination particularly useful during fruit development, when potassium drives sugar accumulation and fruit sizing while sulfur supports the plant's broader metabolic and protein-building processes.",
       "Its high solubility and compatibility with drip irrigation make it a practical choice for growers running fertigation systems on fruit orchards and high-value vegetable crops, where precise, split applications through the season are easier to manage than periodic granular broadcasts.",
@@ -536,6 +536,79 @@ const blogs = [
       "As a fungicide, dissolved copper sulphate is applied as a protective spray on vegetables, fruit trees, and other disease-prone crops, working by inhibiting fungal growth on contact rather than being absorbed systemically into the plant.",
       "Because copper sulphate is also used as an algaecide and can affect soil microbial activity at high rates, it's worth following label rates carefully and avoiding repeated high-dose applications to the same field year after year without a clear disease or deficiency justification.",
     ],
+  },
+  {
+    id: 33,
+    slug: "zinc-sulphate-dose-per-acre-rice-pakistan",
+    title: "Zinc Sulphate Dose Per Acre for Rice in Pakistan: 21%, 27% and 33%",
+    date: "2026-08-31",
+    author: "Chemicides International Agronomy Team",
+    image: ricePaddy,
+    excerpt: "A practical rice zinc guide for Pakistan: compare 21%, 27% and 33% zinc sulphate, understand timing, and avoid costly rate-conversion mistakes.",
+    intro: "The percentage on a zinc sulphate bag is its zinc concentration, not a universal field dose. Equal weights of 21% and 33% products do not deliver equal nutrition. Here is how to compare them and place zinc in a rice program without guessing.",
+    sections: [
+      { heading: "The quick concentration comparison", paragraphs: ["The Agriculture Department Punjab has recognized 5 kg packs of zinc sulphate 21%, 3.75 kg packs of 27%, and 3 kg packs of 33% for a rice micronutrient program. Each of those packs supplies approximately one kilogram of actual zinc: 1.05 kg, 1.01 kg and 0.99 kg respectively.", "These are useful nutrient-equivalence examples, not a universal prescription. Soil zinc, pH, formulation, field history and the registered label determine the appropriate rate."], bullets: ["5 kg of 21% supplies about 1.05 kg actual zinc.", "3.75 kg of 27% supplies about 1.01 kg actual zinc.", "3 kg of 33% supplies about 0.99 kg actual zinc."] },
+      { heading: "When rice needs zinc most", paragraphs: ["Zinc deficiency in transplanted rice often appears two to three weeks after transplanting as bronzing, rusty-brown blotches, stunting and weak tillering. Farmers may call the condition Hudda or Khaira, but diagnosis should still rule out herbicide injury, root damage and other nutrient problems.", "Flooding changes soil chemistry and can reduce zinc availability. High-pH, calcareous soils add another risk. A field can therefore contain zinc yet fail to supply enough to young roots. Recurring symptoms in the same patches are a strong reason to test before the next crop."] },
+      { heading: "Soil application or foliar rescue?", paragraphs: ["For a confirmed deficient field, uniform soil application before or around transplanting is the preventive route. Zinc moves little in soil, so piles and missed strips cause uneven access. Follow the registered label and local extension recommendation for rate and placement.", "A labelled foliar application can help an actively growing crop recover faster after symptoms appear, but it does not build the same soil reserve. Never copy a soil rate into a spray tank. Foliar concentration, water volume and compatibility must come from the foliar label."] },
+      { heading: "How to choose the product", paragraphs: ["Chemicides offers Agro Gold (21% Zn), Saffaron (27% Zn) and Commander (33% Zn). Compare actual zinc delivered at the label rate, cost per treated acre, pack handling, solubility and application method. Higher concentration means less product for equivalent zinc; it does not make one option universally better.", "Before purchase, confirm the label states zinc percentage, formulation, registered crop use, batch details and directions. Persistent deficiency deserves a laboratory soil test or Agriculture Department advice rather than treatment based on leaf colour alone."] }
+    ],
+    faq: [
+      { question: "Is 33% zinc sulphate stronger than 21%?", answer: "It is more concentrated by weight. Less product delivers the same actual zinc, but the field rate must still follow the product label and soil recommendation." },
+      { question: "Can the soil dose be used as a foliar dose?", answer: "No. Soil and foliar rates are not interchangeable. Use only the foliar dilution and water volume on the registered label." },
+      { question: "Should zinc be applied every rice season?", answer: "Not automatically. Zinc may have a residual soil effect. Use testing, crop history and local guidance to decide." }
+    ],
+    sources: [
+      { label: "Agriculture Department Punjab — recognized zinc concentrations for rice", url: "https://agripunjab.gov.pk/system/files?file=EOIs+of+Rice+Seed%2C+Weedicides+%26+Micronutrients+under+National+Rice+Project+2023.pdf" },
+      { label: "FAO — management of calcareous soils", url: "https://www.fao.org/soils-portal/soil-management/management-of-some-problem-soils/calcareous-soils/en/" }
+    ],
+    relatedSlugs: ["hudda-disease-in-rice-zinc-deficiency", "zinc-sulphate-21-vs-27-vs-33-percent", "best-time-to-apply-zinc-sulphate"]
+  },
+  {
+    id: 34,
+    slug: "zinc-deficiency-in-maize-symptoms-treatment-pakistan",
+    title: "Zinc Deficiency in Maize: Symptoms, Causes and Treatment in Pakistan",
+    date: "2026-08-30",
+    author: "Chemicides International Agronomy Team",
+    image: sugarcane,
+    excerpt: "Identify zinc deficiency in maize, understand why calcareous soils raise the risk, and choose the right soil or foliar correction.",
+    intro: "Maize is especially sensitive to low zinc availability. A sound diagnosis combines symptom location, field pattern and a soil or tissue test; colour alone can confuse zinc deficiency with root stress, cold injury or another nutrient shortage.",
+    sections: [
+      { heading: "What zinc deficiency looks like", paragraphs: ["Symptoms usually develop on younger leaves. Look for broad pale-yellow or whitish bands beside the midrib while the midrib and margins can remain greener. Plants may be shortened, with compressed internodes and delayed development.", "Deficiency is often stronger on eroded knolls, levelled areas, sandy patches or exposed calcareous subsoil. Compare affected and healthy plants of the same age and inspect roots before choosing a treatment."], bullets: ["White or yellow bands beside the midrib on young leaves", "Short plants and reduced internode length", "Patches associated with high-pH or exposed subsoil"] },
+      { heading: "Why Pakistan's soils create risk", paragraphs: ["FAO guidance identifies maize as a crop in which zinc deficiency is pronounced on calcareous soils. High pH and calcium carbonate reduce soluble zinc. Heavy phosphorus application can aggravate a marginal zinc problem, so more phosphorus is not a substitute for diagnosis.", "Ask the laboratory which zinc extractant and interpretation range it uses. A raw number cannot be interpreted reliably without the method, soil type and local calibration."] },
+      { heading: "Preventive soil zinc or foliar correction?", paragraphs: ["Soil-applied zinc sulphate, uniformly incorporated or placed according to the label, is the usual preventive option for confirmed deficiency. Because zinc has limited movement in soil, even coverage and placement near developing roots matter.", "Foliar zinc is faster in-season when deficiency is confirmed, but an excessive concentration or incompatible tank mix can injure leaves. Follow the maize label, observe compatibility instructions and spray during cool conditions."] },
+      { heading: "A better buying decision", paragraphs: ["Map symptoms, inspect roots, rule out waterlogging and herbicide injury, and compare test results from affected and healthy zones. Then select a registered product whose route and timing match the problem.", "Chemicides' granular options are Agro Gold 21%, Saffaron 27% and Commander 33%; Scotch 10% is liquid zinc. Compare actual zinc, labelled route and cost per treated acre—not only the percentage on the pack."] }
+    ],
+    faq: [
+      { question: "Which maize leaves show zinc deficiency first?", answer: "Younger leaves generally show pale bands beside the midrib, often with stunting and shortened internodes." },
+      { question: "Can high phosphorus worsen zinc deficiency?", answer: "It can under some conditions. Use soil or tissue testing instead of assuming either nutrient is the only cause." },
+      { question: "Is foliar zinc enough?", answer: "It can correct an in-season shortage quickly, but a confirmed soil deficiency also needs a longer-term fertility plan." }
+    ],
+    sources: [{ label: "FAO — calcareous soils and micronutrient management", url: "https://www.fao.org/soils-portal/soil-management/management-of-some-problem-soils/calcareous-soils/en/" }, { label: "FAO Soils Bulletin 21 — calcareous soils of Pakistan", url: "https://www.fao.org/4/aq284e/aq284e.pdf" }],
+    relatedSlugs: ["best-zinc-fertilizer-for-alkaline-soils", "zinc-sulphate-21-vs-27-vs-33-percent", "how-to-mix-apply-liquid-zinc-10-percent"]
+  },
+  {
+    id: 35,
+    slug: "soil-test-report-guide-pakistan-fertilizer-plan",
+    title: "How to Read a Soil Test Report in Pakistan and Build a Fertilizer Plan",
+    date: "2026-08-29",
+    author: "Chemicides International Agronomy Team",
+    image: farmerField,
+    excerpt: "Understand soil pH, EC, organic matter, phosphorus, potassium and micronutrients before turning laboratory numbers into fertilizer purchases.",
+    intro: "A soil report is not a shopping list. It is a snapshot produced by a specific sampling and laboratory method. A defensible plan combines it with the crop, yield target, irrigation water, field history and local recommendations.",
+    sections: [
+      { heading: "Start with sampling quality", paragraphs: ["Divide land with different texture, slope, irrigation history or performance into separate zones. Take multiple cores in a zigzag at the laboratory's recommended depth, mix them in a clean container and submit a representative composite sample.", "Avoid fertilizer bands, manure piles, edges and unusual wet spots unless testing them separately. Record field, depth, date and previous crop. For trend monitoring, repeat the season, depth and laboratory where possible."] },
+      { heading: "Read pH and electrical conductivity first", paragraphs: ["Soil pH controls nutrient availability; it is not a fertilizer rate. In alkaline, calcareous soil, zinc, iron and phosphorus can become less available even when their total quantity is not low.", "Electrical conductivity indicates soluble salts. A high result changes irrigation and amendment decisions and should not be treated with a generic acidifier before identifying salinity, sodicity, carbonate-rich soil or irrigation-water quality."] },
+      { heading: "Organic matter, phosphorus and potassium", paragraphs: ["Low organic matter supports residue retention, suitable manure or compost and reduced disturbance. A humic product can complement this program but does not replace organic matter inputs.", "Available phosphorus and potassium depend on the extraction method. Use the laboratory's locally calibrated category, not a chart from another country. Excess phosphorus on calcareous soil may aggravate marginal zinc or iron availability."] },
+      { heading: "Interpret micronutrients correctly", paragraphs: ["A micronutrient result should name its extraction method, such as DTPA or AB-DTPA. Critical values are method- and region-specific. If a report only says 'zinc low,' ask how that category was established.", "Tissue testing is useful when plant symptoms conflict with soil results. Soil estimates potential availability; tissue measures what entered the plant. Both require crop-stage and sampling context."] },
+      { heading: "Convert the recommendation into product quantity", paragraphs: ["List every recommendation as actual nutrient per acre, then divide by the nutrient fraction on the guaranteed analysis. If a qualified recommendation calls for 1 kg actual zinc, that equals about 3.03 kg of a 33% product or 4.76 kg of a 21% product.", "Finally check the registered crop, route, rate and safety directions. Ask a local agronomist or Agriculture Department office to reconcile any conflict between the laboratory recommendation and label."] }
+    ],
+    faq: [
+      { question: "Does low organic matter mean I need humic acid?", answer: "Humic products may complement a soil-health program, but they do not replace residues, manure or compost as sources of organic matter." },
+      { question: "Can I compare test numbers from different laboratories?", answer: "Only cautiously. Extraction methods and interpretation ranges can differ; consistent sampling and laboratory methods make trends more meaningful." },
+      { question: "How often should soil be tested?", answer: "It depends on crop intensity and management. Test often enough to track change, using a consistent season, depth and method; your laboratory can recommend an interval." }
+    ],
+    sources: [{ label: "FAO — calcareous soil management", url: "https://www.fao.org/soils-portal/soil-management/management-of-some-problem-soils/calcareous-soils/en/" }, { label: "FAO — calcareous soils of Pakistan", url: "https://www.fao.org/4/x5868e/x5868e03.htm" }],
+    relatedSlugs: ["choosing-the-right-fertilizer-for-your-soil", "best-zinc-fertilizer-for-alkaline-soils", "humic-acid-soil-health-structure"]
   },
 ];
 
